@@ -1,0 +1,573 @@
+{
+  "confirmation_seed_base": 40260712,
+  "particles": 1024,
+  "role": "confirmation",
+  "schema_version": 1,
+  "stage": "final",
+  "triplets": [
+    {
+      "family": {
+        "c_eff": 0.39453125,
+        "c_nominal": 0.3932706898356706,
+        "d": 1.1863007039240852,
+        "m0": 0.0,
+        "n_central": 404,
+        "n_particles": 1024,
+        "r_minus": -2.403182586590333,
+        "r_plus": 1.515436512823419,
+        "sample_seed": 818695177,
+        "triplet_id": 100,
+        "width": 0.13696826593434325,
+        "window_half_width": 0.4171226092981658,
+        "x_c": 0.6811912942270875
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 379932258,
+          "initial_mean": -1.186300703924085,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.806496475730293,
+          "min_state": -2.51550738270395,
+          "path": "triplet_100_minus.npy",
+          "sha256": "70228620dcc3292b16ffddbaebbff103fcd663d803207ff95f75cb5d245172b9"
+        },
+        "mixed": {
+          "brownian_seed": 3560137936,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8764220139330143,
+          "min_state": -2.51550738270395,
+          "path": "triplet_100_mixed.npy",
+          "sha256": "4fc30480c949c6359ebde9dd82ef87cbea25d01e6ba3fdd5aeee91fb1d6f1f11"
+        },
+        "plus": {
+          "brownian_seed": 1639244343,
+          "initial_mean": 1.1863007039240852,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.624425507269113,
+          "min_state": 0.5318299424642249,
+          "path": "triplet_100_plus.npy",
+          "sha256": "03e61522878c7601894322dd445c38bb0be17d6001b90f3bf53bfbbe2daad116"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.4375,
+        "c_nominal": 0.436273784966752,
+        "d": 1.1852271983200107,
+        "m0": 0.0,
+        "n_central": 448,
+        "n_particles": 1024,
+        "r_minus": -2.6958676750266997,
+        "r_plus": 1.5182734745555602,
+        "sample_seed": 2607084287,
+        "triplet_id": 101,
+        "width": 0.11254525835010061,
+        "window_half_width": 0.38062431569777083,
+        "x_c": 0.7570248431600185
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2463864252,
+          "initial_mean": -1.1852271983200104,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8473430463930363,
+          "min_state": -2.792655197749208,
+          "path": "triplet_101_minus.npy",
+          "sha256": "9cb8f0ed70db486b618fb600beb63c3e2b76ce7fbd4d03c9c6a03397e16e88ed"
+        },
+        "mixed": {
+          "brownian_seed": 2854211415,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8383387571025063,
+          "min_state": -2.792655197749208,
+          "path": "triplet_101_mixed.npy",
+          "sha256": "dfe76986a206dc09f3eb37f6a8e6b69e6dc06173b039e99e1f90db0077a087e0"
+        },
+        "plus": {
+          "brownian_seed": 3410582432,
+          "initial_mean": 1.1852271983200104,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.6175191150594932,
+          "min_state": 0.5812864044891515,
+          "path": "triplet_101_plus.npy",
+          "sha256": "ffaca2c085dcad5ca13e9dd9c01bcb482dcac74de43473e0d84565ea43447198"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.4453125,
+        "c_nominal": 0.4452945198886521,
+        "d": 1.173515192396623,
+        "m0": 0.0,
+        "n_central": 456,
+        "n_particles": 1024,
+        "r_minus": -2.7576958667696916,
+        "r_plus": 1.4735701790547517,
+        "sample_seed": 3762838951,
+        "triplet_id": 102,
+        "width": 0.10887720360384348,
+        "window_half_width": 0.3369038446687762,
+        "x_c": 0.7997624897171993
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2646215102,
+          "initial_mean": -1.173515192396623,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.89615923602509,
+          "min_state": -2.8488655101875064,
+          "path": "triplet_102_minus.npy",
+          "sha256": "7996f04ef8f200155c4f822341c3883ad9336293824ec39d1705651048fed81b"
+        },
+        "mixed": {
+          "brownian_seed": 2489777639,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.806330331656534,
+          "min_state": -2.8488655101875064,
+          "path": "triplet_102_mixed.npy",
+          "sha256": "b910c338607d1155815414092a4718fe2d1f14b98555784a4110ae8e70380b0a"
+        },
+        "plus": {
+          "brownian_seed": 55237907,
+          "initial_mean": 1.173515192396623,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.5620735740859677,
+          "min_state": 0.6319407012286197,
+          "path": "triplet_102_plus.npy",
+          "sha256": "97b561df7d30a05f33c80b0b29f35125d98941f3646741821f74a0da1a687468"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.4375,
+        "c_nominal": 0.4347791292608861,
+        "d": 1.2029822579188427,
+        "m0": 0.0,
+        "n_central": 448,
+        "n_particles": 1024,
+        "r_minus": -2.481636404374275,
+        "r_plus": 1.7956338460038326,
+        "sample_seed": 2771003704,
+        "triplet_id": 103,
+        "width": 0.11302405855026698,
+        "window_half_width": 0.45,
+        "x_c": 0.44100164466671293
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3180545225,
+          "initial_mean": -1.2029822579188427,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.5392831717034146,
+          "min_state": -2.582010016733693,
+          "path": "triplet_103_minus.npy",
+          "sha256": "b1adb929f954067a1a4d9cec7cbb9d47bb5ca3850828f382eb6e63837e0a397e"
+        },
+        "mixed": {
+          "brownian_seed": 1018369477,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9910307272829375,
+          "min_state": -2.582010016733693,
+          "path": "triplet_103_mixed.npy",
+          "sha256": "dc712d046f5175a280a559e8c77977cf02bd6b6f656a225ebbee34358ce5cf8e"
+        },
+        "plus": {
+          "brownian_seed": 2052919684,
+          "initial_mean": 1.2029822579188427,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8977119461536185,
+          "min_state": 0.3364005555992632,
+          "path": "triplet_103_plus.npy",
+          "sha256": "4c6b011defe71a908bf71adc5f88a4037d7a3df3d04474c9bdcea86474aadaf4"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.35546875,
+        "c_nominal": 0.35274793250613057,
+        "d": 1.0056099955390543,
+        "m0": 0.0,
+        "n_central": 364,
+        "n_particles": 1024,
+        "r_minus": -1.8096879586766665,
+        "r_plus": 1.3107503305111867,
+        "sample_seed": 1149028941,
+        "triplet_id": 104,
+        "width": 0.09142089029423248,
+        "window_half_width": 0.429208383257505,
+        "x_c": 0.45233356399617675
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1868163687,
+          "initial_mean": -1.0056099955390543,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.5305981020449971,
+          "min_state": -1.8896745961701922,
+          "path": "triplet_104_minus.npy",
+          "sha256": "6c4d977cb118ba0ae1ea93cf97d27a7b73ac74ad757d0eab85f6d4746142eacb"
+        },
+        "mixed": {
+          "brownian_seed": 3013841008,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8389140684196397,
+          "min_state": -1.9882255813089251,
+          "path": "triplet_104_mixed.npy",
+          "sha256": "1c5a1142fb2b3d72986eaf0cd293717170f576739a46ad4f5b7260cd27555f99"
+        },
+        "plus": {
+          "brownian_seed": 3009077191,
+          "initial_mean": 1.005609995539054,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.3852065753771379,
+          "min_state": 0.3700165716977952,
+          "path": "triplet_104_plus.npy",
+          "sha256": "b76b8bf833acad92ad7bf0430da5b9ce932b6ae73902656624ca35dfa7314fe5"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.3515625,
+        "c_nominal": 0.35170654104150106,
+        "d": 1.2786862470196583,
+        "m0": 0.0,
+        "n_central": 360,
+        "n_particles": 1024,
+        "r_minus": -2.3815769893964043,
+        "r_plus": 1.5623227604473608,
+        "sample_seed": 3555184252,
+        "triplet_id": 105,
+        "width": 0.11062203411998073,
+        "window_half_width": 0.40339415243051013,
+        "x_c": 0.7555344555863406
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2321364300,
+          "initial_mean": -1.278686247019658,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8555151081819288,
+          "min_state": -2.4722673172261658,
+          "path": "triplet_105_minus.npy",
+          "sha256": "7744efd467ca9eb75123d0df9cfd45786dcf06c8d196a64106028e4fe4a1fee8"
+        },
+        "mixed": {
+          "brownian_seed": 178803641,
+          "initial_mean": 2.220446049250313e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8977439961948066,
+          "min_state": -2.4722673172261658,
+          "path": "triplet_105_mixed.npy",
+          "sha256": "15c23061290c5b41e47f129b57c0b461c2daaa311f6222160615692cb1cd463e"
+        },
+        "plus": {
+          "brownian_seed": 167566312,
+          "initial_mean": 1.2786862470196585,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.6516551078722979,
+          "min_state": 0.5854108716174454,
+          "path": "triplet_105_plus.npy",
+          "sha256": "e01241b757932ec74f15ed3a58ab84e790f5ea76776c0e01986699c648647ea9"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.359375,
+        "c_nominal": 0.35657781853501436,
+        "d": 1.1604988987932403,
+        "m0": 0.0,
+        "n_central": 368,
+        "n_particles": 1024,
+        "r_minus": -2.091776570452514,
+        "r_plus": 1.531244381877602,
+        "sample_seed": 1466088360,
+        "triplet_id": 106,
+        "width": 0.14617692374015034,
+        "window_half_width": 0.45,
+        "x_c": 0.49960477677329107
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1842763466,
+          "initial_mean": -1.1604988987932405,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6202378257976362,
+          "min_state": -2.223664974514864,
+          "path": "triplet_106_minus.npy",
+          "sha256": "666f9dd9314bc3df0cc8d2436ca9dfa64b2bc84cacfd7ae6f9988531392978d0"
+        },
+        "mixed": {
+          "brownian_seed": 2536589903,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9147931960294826,
+          "min_state": -2.223664974514864,
+          "path": "triplet_106_mixed.npy",
+          "sha256": "39a7523b401a92495c5ca534e00e662facfea6c75ed136aebb799d36539ea9ad"
+        },
+        "plus": {
+          "brownian_seed": 1026350807,
+          "initial_mean": 1.1604988987932403,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.6514481493203377,
+          "min_state": 0.3642553945976687,
+          "path": "triplet_106_plus.npy",
+          "sha256": "57b77ff0ae119c6380f8ce75528470ca5ac56c73115656334e54bc71d73c34ba"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.40625,
+        "c_nominal": 0.40448767064830665,
+        "d": 1.0933923530258638,
+        "m0": 0.0,
+        "n_central": 416,
+        "n_particles": 1024,
+        "r_minus": -2.2557751278752094,
+        "r_plus": 1.4272306928434895,
+        "sample_seed": 1756061990,
+        "triplet_id": 107,
+        "width": 0.1183193269112536,
+        "window_half_width": 0.41087795669861615,
+        "x_c": 0.6054747794462572
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3284289574,
+          "initial_mean": -1.0933923530258636,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.707022604794537,
+          "min_state": -2.345174192012234,
+          "path": "triplet_107_minus.npy",
+          "sha256": "e252e0c94938abd59ad76e9f164fc3707e026638819777261af2b21c10827c7a"
+        },
+        "mixed": {
+          "brownian_seed": 2907579430,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8520427252216893,
+          "min_state": -2.345174192012234,
+          "path": "triplet_107_mixed.npy",
+          "sha256": "f84a4925733bc3cdc7c8710bb5db31b38e1f09e8683d097e5f0f85759303db6f"
+        },
+        "plus": {
+          "brownian_seed": 1214813430,
+          "initial_mean": 1.0933923530258638,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.5240521231535453,
+          "min_state": 0.4895620668174154,
+          "path": "triplet_107_plus.npy",
+          "sha256": "3c94f6e49da9d8aa7fb0fd22834826d208d0fbc9e6483f5a6cfc3d7a0ae50fea"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.4453125,
+        "c_nominal": 0.4442841976576694,
+        "d": 1.1733764997640643,
+        "m0": 0.0,
+        "n_central": 456,
+        "n_particles": 1024,
+        "r_minus": -2.735592226704569,
+        "r_plus": 1.4951737442757194,
+        "sample_seed": 1277732416,
+        "triplet_id": 108,
+        "width": 0.12471993856246423,
+        "window_half_width": 0.3613162043639635,
+        "x_c": 0.7725413355477924
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2205433434,
+          "initial_mean": -1.1733764997640643,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8800337685134186,
+          "min_state": -2.8415046889027864,
+          "path": "triplet_108_minus.npy",
+          "sha256": "fa47d8b88e6c9ffc05012ab6e41b6e668c08a625a83600e7bcaf01e5fcc93315"
+        },
+        "mixed": {
+          "brownian_seed": 1887822879,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8258988513325651,
+          "min_state": -2.8415046889027864,
+          "path": "triplet_108_mixed.npy",
+          "sha256": "bdd09e9360b18ed1946f0f004461945fbd87c3b8180a76d5bdf557b61193441b"
+        },
+        "plus": {
+          "brownian_seed": 4061030549,
+          "initial_mean": 1.1733764997640643,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.5987848547370205,
+          "min_state": 0.6141392301615555,
+          "path": "triplet_108_plus.npy",
+          "sha256": "64d404438fbd1ec80d244599d588077fa350afcab989db4786d60689e9f5f036"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.37890625,
+        "c_nominal": 0.3785628702699333,
+        "d": 1.1127500031575583,
+        "m0": 0.0,
+        "n_central": 388,
+        "n_particles": 1024,
+        "r_minus": -2.2703953931267185,
+        "r_plus": 1.3127995855944758,
+        "sample_seed": 4153225641,
+        "triplet_id": 109,
+        "width": 0.08701572681929168,
+        "window_half_width": 0.2639829541435612,
+        "x_c": 0.7848336773073534
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 4281012747,
+          "initial_mean": -1.1127500031575583,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8581735692327817,
+          "min_state": -2.3444643741130813,
+          "path": "triplet_109_minus.npy",
+          "sha256": "05286729456e98a904cb47da969c84132832c33808a2c57b370250ecc678fcd6"
+        },
+        "mixed": {
+          "brownian_seed": 4259144161,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.784351230651935,
+          "min_state": -2.3444643741130813,
+          "path": "triplet_109_mixed.npy",
+          "sha256": "edaa688bb59c4541cc7668a1d75c6f0acc9ef65baf6836c0f7b4f02cdfb4c1a9"
+        },
+        "plus": {
+          "brownian_seed": 1374353430,
+          "initial_mean": 1.1127500031575583,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.3886677143938304,
+          "min_state": 0.656451160238227,
+          "path": "triplet_109_plus.npy",
+          "sha256": "b66f4a8c78df510223e3441cee7fe674a03ab938dd2a4e06eaf307c61c06df79"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.37109375,
+        "c_nominal": 0.3703376184272537,
+        "d": 1.2268689580516332,
+        "m0": 0.0,
+        "n_central": 380,
+        "n_particles": 1024,
+        "r_minus": -2.3662620280962927,
+        "r_plus": 1.5353336645896465,
+        "sample_seed": 1857600970,
+        "triplet_id": 110,
+        "width": 0.1292863050872541,
+        "window_half_width": 0.4156156045985864,
+        "x_c": 0.7041024553924737
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 4015953385,
+          "initial_mean": -1.2268689580516332,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8150653687882062,
+          "min_state": -2.472014711722045,
+          "path": "triplet_110_minus.npy",
+          "sha256": "4c6d8aefd28fbb957ebdfe944761dc10afc2951a5916fd39df70491f2cd40abf"
+        },
+        "mixed": {
+          "brownian_seed": 2345087761,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8826109844204593,
+          "min_state": -2.472014711722045,
+          "path": "triplet_110_mixed.npy",
+          "sha256": "b257ab69ba58a0b8ba5f50f2fb8ebdbc461dff9c6fedbe863bc149f962083fee"
+        },
+        "plus": {
+          "brownian_seed": 4196843302,
+          "initial_mean": 1.2268689580516332,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.65083806544708,
+          "min_state": 0.5454023315573308,
+          "path": "triplet_110_plus.npy",
+          "sha256": "46b2e92c7509dd55f0d54cc2cb33768d9b74fcebc1f04e58e70fb7abda865e8a"
+        }
+      },
+      "role": "confirmation"
+    },
+    {
+      "family": {
+        "c_eff": 0.44921875,
+        "c_nominal": 0.4469394703474343,
+        "d": 1.0978506999539157,
+        "m0": 0.0,
+        "n_central": 460,
+        "n_particles": 1024,
+        "r_minus": -2.594929323888107,
+        "r_plus": 1.3915923667246932,
+        "sample_seed": 3052902923,
+        "triplet_id": 111,
+        "width": 0.11517135621455155,
+        "window_half_width": 0.32694724649269147,
+        "x_c": 0.7376978737393103
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3159082447,
+          "initial_mean": -1.0978506999539157,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8393596154308985,
+          "min_state": -2.689564984281433,
+          "path": "triplet_111_minus.npy",
+          "sha256": "a6d15b5845eb838f98d958168c7e7f4d6631cd4870352c926aed04d3d3ea78ee"
+        },
+        "mixed": {
+          "brownian_seed": 3917944766,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8042111127988614,
+          "min_state": -2.689564984281433,
+          "path": "triplet_111_mixed.npy",
+          "sha256": "2401dda5a18222ff3a90411bd00a55ee9e736f4b35f0af5b9365886eb26664ea"
+        },
+        "plus": {
+          "brownian_seed": 2547765872,
+          "initial_mean": 1.0978506999539157,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4880767055939548,
+          "min_state": 0.6143472913895859,
+          "path": "triplet_111_plus.npy",
+          "sha256": "6f875ead2ab5fcec2fe430723964219053ab898f85c2553433ddcb30ebe43b17"
+        }
+      },
+      "role": "confirmation"
+    }
+  ]
+}

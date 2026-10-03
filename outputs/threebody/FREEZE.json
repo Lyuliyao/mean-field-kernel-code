@@ -1,0 +1,44 @@
+{
+  "git_commit": "dfc366947f05a7a0f0049d8cf1e3b90aa5b662d9",
+  "protocol_sha256": "e0946cdb9bf08a933f24e329a8a009dfa5969c4f0854da9dd585b521c0f5b26c",
+  "selection_summary": {
+    "bandwidth": 0.05,
+    "fit_summary_sha256": "5e4a356b542cd756878b811326bbef12945d45a8532720e303896c3981d4d19b",
+    "kernel_selected": {
+      "basis_count": 24,
+      "smoothness": 1e-08,
+      "validation_rollout_w1": 0.08519048592753128
+    },
+    "local_selected": {
+      "basis_count": 16,
+      "smoothness": 1e-08,
+      "threshold": 0.0,
+      "validation_rollout_w1": 0.2671977815955525
+    },
+    "model_artifacts": {
+      "final/baselines/kernel_model.npz": "38cf5e5f63c8069a0b8caf048cac0bef24763f2b6a63448a186624030cd10202",
+      "final/baselines/local_model.npz": "bc08fbf26b58a78a59e9788365284715c0a071f74eb2441f0ea74969f4e7be90",
+      "final/mvnn/seed_0/best_params.msgpack": "13ebd2f961423d669c75dcad36aae649a9b54a3422d6b3bd0a8395c9e1acc17b",
+      "final/mvnn/seed_1/best_params.msgpack": "abab8eb789e44e61661121f8eb537c9ba1ee062baaef323f804acda0ad84a7be",
+      "final/mvnn/seed_2/best_params.msgpack": "cce61889b2b5ee1355aa03c3f0932a15321a0f8e70640305818df6e09856923d"
+    },
+    "mvnn_checkpoint_rule": "best mean autonomous validation rollout W1",
+    "mvnn_summaries": {
+      "0": {
+        "best_rollout_w1": 0.004424621604040894,
+        "best_step": 11000,
+        "sha256": "98b3c7dda573340afa9cd01c5a48cc38a17a94f9233ae04eac481041581283ee"
+      },
+      "1": {
+        "best_rollout_w1": 0.003677260050811417,
+        "best_step": 4000,
+        "sha256": "1a03d73814ae2dad6a4107a68cec51275adeafcd2a969d0827a69a6e17aeb9b0"
+      },
+      "2": {
+        "best_rollout_w1": 0.005669612288221229,
+        "best_step": 3000,
+        "sha256": "be619a6eb71a9b3cba1a98d832613aa97dde99ce08d345426165c5176bd7a331"
+      }
+    }
+  }
+}

@@ -1,0 +1,698 @@
+[
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order/result_second_order.npy",
+    "dest": "case4/sim_second_order/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "0034d4927103eadc74f716ec36d468fdade671bdbf9e497d6393e14325744523",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order/v_result_second_order.npy",
+    "dest": "case4/sim_second_order/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "483ed52dd64d256f7eefebfa85504d9cd92ed74f6caa140a7a06ee287d275f32",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_2/result_second_order.npy",
+    "dest": "case4/sim_second_order_2/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "ea387a4d62e145728264564fd16679c44212e6e7f05a84ab9e2a45f7c03fdd9b",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_2/v_result_second_order.npy",
+    "dest": "case4/sim_second_order_2/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "1984a3146751b57989345616f75483ecd0a33758f1d4f085508f8dd913da332f",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_3/result_second_order.npy",
+    "dest": "case4/sim_second_order_3/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "d32dd4a3ed9f83e904b83bd6e0887a22119b9abb521fe4baa6de00f242adde7b",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_3/v_result_second_order.npy",
+    "dest": "case4/sim_second_order_3/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "492dadfa73d3e1e1150294a24814d77916b6bdff54922bdef5d0fb2f3100ac01",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_4/result_second_order.npy",
+    "dest": "case4/sim_second_order_4/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "51eee97394d704f85158c64df73527b01d400d168724984763138be67382c735",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/sim_second_order_4/v_result_second_order.npy",
+    "dest": "case4/sim_second_order_4/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "3b17b0b9ab911a20de3b0767f2f31a0fea59fe4a0956d1ebf6336b1b76af1f6c",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order/result_second_order.npy",
+    "dest": "case4/test_data_second_order/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "ca4dac0f376ee196d63efda7464c4b8db688a39668d91b0a3784454e320dd4cf",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order/v_result_second_order.npy",
+    "dest": "case4/test_data_second_order/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "1d5a82330d4750d0d92f91ca06d6bd073d0fb3dc0bcc701936a1ef27ab0225ea",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_2/result_second_order.npy",
+    "dest": "case4/test_data_second_order_2/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "561f1f6e3ef921d827530808f0cb2d025b6395886572e18c4a8c0bfb1aeaac55",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_2/v_result_second_order.npy",
+    "dest": "case4/test_data_second_order_2/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "7615018c26f8a62a3d90ded713a958d8561565ec23953b104a0ee5bdc34c3c91",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_3/result_second_order.npy",
+    "dest": "case4/test_data_second_order_3/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "6dfc57c3e4b52424dcd8a57b4ded5f2c1ca1d3fb507031c99968ecb490fe4288",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_3/v_result_second_order.npy",
+    "dest": "case4/test_data_second_order_3/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "efc40c6e76ea1ddb13cf707739eb2602884acb4d5f1a2c92f17ef4355ca23f45",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_4/result_second_order.npy",
+    "dest": "case4/test_data_second_order_4/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "a04bba83bfcefd07e850517664319839758336b0fee902f9b16e77fc995eaa1c",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4/test_data_second_order_4/v_result_second_order.npy",
+    "dest": "case4/test_data_second_order_4/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "5cddece87836a9e8801d506d3d301428c10da0bd597ddd26ba9cb97b6416e981",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/sim_second_order/result_second_order.npy",
+    "dest": "case4_cs/sim_second_order/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "340a0321ef1bbcc906fd063275d4765a75d9759c6326c14a5ff216d5fc7e79ed",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/sim_second_order/v_result_second_order.npy",
+    "dest": "case4_cs/sim_second_order/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 2598528128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "baec16b17fd8f8d0b060afd7f00afbb91f6310bdd2e2ec26b0c38c773c952ea6",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/sim_second_order_2/result_second_order.npy",
+    "dest": "case4_cs/sim_second_order_2/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "a15e17fbb5433014a6beab9cd59d4818a304626ceffbf6ed029555cae9d7298f",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/sim_second_order_2/v_result_second_order.npy",
+    "dest": "case4_cs/sim_second_order_2/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5197056128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "2e40de50d394ee782ac0111a10f8f2f6c059b1ac0ce036df1a690a6f02d72202",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/test_data_second_order/result_second_order.npy",
+    "dest": "case4_cs/test_data_second_order/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "7c17e314aef22424c954ce6ad69ff424bc602715df0a00ca885f8177ea0553f6",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/test_data_second_order/v_result_second_order.npy",
+    "dest": "case4_cs/test_data_second_order/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "0c053498b3dc42135fd7150e888ef95fc58fe5ff88b313f9864dfce612a0b9f1",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/test_data_second_order_2/result_second_order.npy",
+    "dest": "case4_cs/test_data_second_order_2/result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "7ab8409406d5f93c11bcef1695b2ff46954be9849f009173cca82a2dd273163f",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/anvil/projects/x-mth260007/Tracy/case4_cs/test_data_second_order_2/v_result_second_order.npy",
+    "dest": "case4_cs/test_data_second_order_2/v_result_second_order.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      1616000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 5171200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "c998123acb0560c5eff774fe3e2db3d4ea1fb6bd4c79fb124a8afe913962f129",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  }
+]

@@ -1,0 +1,8 @@
+*.npy binary
+*.npz binary
+*.msgpack binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ipynb text eol=lf

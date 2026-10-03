@@ -1,0 +1,258 @@
+# Protocol: Reviewer 1 — three-body global-mean drift experiment
+# ---------------------------------------------------------------
+# Purpose: compare (1) MVNN trained from particle trajectories, (2) a local
+# PDE-WSINDy model, and (3) an additive B-spline kernel WSINDy model
+#   b_hat(x, mu) = f_B(x) + int K_B(y - x) mu(dy)
+# on ground-truth dynamics whose drift depends nonlinearly on the measure
+# through the squared global mean M_N^2.  Any additive pairwise-kernel model
+# is affine in mu and therefore satisfies
+#   b(x, (mu+ + mu-)/2) = [b(x, mu+) + b(x, mu-)]/2  exactly,
+# while the true drift violates it by exactly alpha * x * d^2 for matched
+# mixture triplets with means m0 +/- d and m0.
+#
+# This file is the locked specification of record.  It is committed before
+# any final confirmation evaluation.  Changes after the freeze commit are
+# protocol deviations and must be reported as such.
+
+schema_version: 1
+experiment_name: r1c1_threebody_global_mean
+status: frozen             # revision 2 frozen 2026-07-12 after pilot + final validation review
+# Revision-2 pilot: best validation step 5000/5000; learning-curve inspection
+# showed a noisy plateau from step 2000 (0.0064 -> 0.0126 -> 0.0076 -> 0.0059),
+# so the locked formula was applied as written: final budget
+# min(20000, 2*5000 + 2000) = 12000 steps per seed. Bandwidth: 0.05.
+# Revision 2 changes (fairness fixes; v1 confirmation results superseded):
+#   1. Triplet construction now satisfies mu_mixed = (mu_plus + mu_minus)/2
+#      EXACTLY at the multiset level (remote base atoms duplicated in the
+#      endpoints; the mixture takes one copy of each). The affinity-defect
+#      evaluation probes every method with the same empirical objects.
+#   2. The local PDE-WSINDy baseline receives the same known diffusion
+#      nu = sigma^2/2 as the kernel baseline and MVNN (previously a free
+#      library coefficient that selection thresholded to zero).
+#   3. The freeze marker pins SHA-256 digests of the locked MVNN checkpoints
+#      and both WSINDy model files; confirmation verifies them.
+#   4. Cost reporting separates single-model fit/train, hyperparameter
+#      selection, and rollout times with hardware labels (no rescaled bars).
+# The revision-2 confirmation set uses a fresh seed base (the v1 confirmation
+# results had been viewed before these fixes).
+
+ground_truth:
+  # dX_i = [gamma (M_N - X_i) + (a - alpha M_N^2) X_i - beta X_i^3] dt + sigma dW_i
+  # M_N = (1/N) sum_j X_j
+  a: 1.0
+  alpha: 1.0
+  beta: 0.2
+  gamma: 0.2
+  sigma: 0.03
+  dt: 0.01
+  final_time: 1.0
+  n_frames: 101              # includes t = 0
+  integrator: euler_maruyama
+  clipping: none             # particle states are never clipped
+  domain: [-4.0, 4.0]        # density evaluation domain only
+  boundary_mass_tolerance: 1.0e-8   # max density mass within 0.2 of either wall
+
+sanity_check_alpha0:
+  # Internal implementation check only (never in the rebuttal figure):
+  # with alpha = 0, sigma = 0 the true drift IS additive:
+  #   b(x, mu) = (a x - beta x^3) + int gamma (y - x) mu(dy)
+  # so the B-spline kernel WSINDy baseline must produce accurate held-out
+  # forecasts.  Failure blocks the main experiment.
+  a: 1.0
+  alpha: 0.0
+  beta: 0.2
+  gamma: 0.2
+  sigma: 0.0
+  n_train_triplets: 6
+  n_validation_triplets: 2
+  particles: 512
+  acceptance:
+    max_validation_time_avg_w1: 0.02   # held-out autonomous rollout W1 (primary gate);
+                                       # measured KDE half-sample floor is ~0.014 at bw 0.05
+    max_drift_rel_l2: 0.12             # mean fitted-vs-true drift rel L2 over training
+                                       # measures at t=0, on their own density support
+                                       # (f_B is unidentified where no training mass lives)
+
+triplets:
+  # Matched mixture triplets mu+, mu-, mu0 = (mu+ + mu-)/2 sharing the same
+  # central bump.  All means are exact by antithetic construction.
+  m0: 0.0
+  canonical_development:
+    x_c: 0.6
+    c: 0.4
+    d: 1.2
+    width: 0.12
+  sampling_ranges:
+    x_c: [0.4, 0.8]
+    c: [0.35, 0.45]
+    d: [0.9, 1.3]
+    width: [0.08, 0.15]
+  safety_constraints:
+    min_center_gap: "2*width + 0.25"   # remote centers vs central center, disjoint supports
+    support_bound: 3.4                 # all initial |x| + width <= support_bound
+    d_lower_effective: "max(0.9, x_c + (2*width + 0.25)*(1 - c))"
+  bump_shape: mollifier                # psi(u) ∝ exp(-1/(1-u^2)) on (-1,1), scaled by width
+  sampling: antithetic_inverse_cdf     # pairs (u, -u) so bump sample means are exact
+  construction:
+    shared_central_samples: true
+    duplicated_remote_pairs: true      # endpoints carry two copies of each remote
+                                       # base atom; mu0 takes one copy of every
+                                       # positive and negative atom, so
+                                       # mu0 = (mu+ + mu-)/2 exactly (multisets)
+    n_central: "nearest even to c*N such that (N - n_central) % 4 == 0"
+    c_effective: "n_central / N (recorded in manifest; remote centers solved with it)"
+    remote_centers: "r_pm = (m0 +/- d - c_eff*x_c) / (1 - c_eff)"
+  split_unit: triplet_family           # never frames; trajectories stay with their family
+
+stages:
+  pilot:
+    particles: 512
+    n_train_triplets: 8
+    n_validation_triplets: 3
+    n_confirmation_triplets: 0
+    mvnn_seeds: [0]
+    data_seed_base: 20260711
+    confirmation_evaluated: false
+  final:
+    particles: 1024
+    n_train_triplets: 24
+    n_validation_triplets: 6
+    n_confirmation_triplets: 12
+    mvnn_seeds: [0, 1, 2]
+    data_seed_base: 30260711          # disjoint from pilot
+    confirmation_seed_base: 40260712  # fresh seeds for revision 2 (v1 base 40260711 was consumed)
+    confirmation_evaluated_exactly_once: true
+
+observation:
+  # Common observation operator for ALL methods (identical t=0 representation).
+  grid_cells: 512                      # uniform cell-centered on domain, dx = 8/512
+  kde: histogram_plus_discrete_gaussian  # counts/(N dx) then normalized Gaussian, truncate 4 sd, renormalize
+  bandwidth_candidates: [0.05, 0.08, 0.12]
+  bandwidth_selection: held_out_particle_w1_on_training_triplets_only
+  pde_initial_condition: kde_of_empirical_initial_particles
+  mvnn_projection: same_kde_grid_bandwidth
+  preprocessing_cost: recorded_separately
+
+mvnn:
+  architecture:
+    embedding_hidden: [32, 32]
+    embedding_out: 8
+    interaction_hidden: [64, 64]
+    interaction_out: 1
+    activation: tanh
+    pooling: mean_over_particles
+    handcrafted_features: none
+    dtype: float64
+  loss: manuscript_relative_l2         # sqrt(sum((v - b_theta)^2)) / sqrt(sum(v^2)), v = (X_{t+dt}-X_t)/dt
+  optimizer: adam
+  learning_rate: 1.0e-3
+  learning_rate_fallback: 3.0e-4       # only if pilot at 1e-3 is unstable
+  gradient_clip_global_norm: 1.0
+  batch_frames: 32                     # frames per optimizer step, all particles per frame
+  rollout_noise: known_sigma           # sigma re-injected at rollout, manuscript convention
+  budgets:
+    smoke_steps: 200
+    pilot_max_steps: 5000
+    final_max_steps: "min(20000, 2*s_best_pilot + 2000)"
+    onestep_validation_every: 250      # monitoring only, never checkpoint selection
+    rollout_validation_every: 1000
+    early_stop_patience_rollout_evals: 5
+    early_stop_min_relative_improvement: 0.005
+  checkpointing:
+    keep: [best, last]
+    selection_metric: mean_autonomous_validation_rollout_w1
+  abort_on: [nan_loss, nonfinite_gradients, invalid_rollout_states]
+  timing:
+    separate_compile_time: true
+    record: [best_step, last_step, wall_time, gpu_utilization, peak_gpu_memory]
+
+local_wsindy:
+  # Local mass-conservative weak-form library; fitted from KDE densities of the
+  # SAME particle trajectories.  No global moments, no M(t), no convolution
+  # features, no future truth.
+  form: "d_t rho = -d_x[ sum_k c_k F_k(rho, d_x rho, x) ] + nu d_xx rho"
+  library:
+    bspline_fluxes: "rho^q B_j(x), q in {1,2,3}, cubic B-splines on the domain"
+    nonlinear_fluxes: [rho^2, rho^3, rho*dx_rho, rho^2*dx_rho]
+  diffusion: known_sigma_squared_over_two   # same known nu as kernel baseline and MVNN
+  knot_candidates: [8, 12, 16]
+  smoothness_candidates: [1.0e-8, 1.0e-6, 1.0e-4]
+  group_threshold_candidates: [0.0, 0.03, 0.1]
+  ridge: 1.0e-8                        # in column-normalized coordinates
+  selection_metric: mean_validation_rollout_w1_only
+  shared_fit: one model across ALL training trajectories and families
+
+kernel_wsindy:
+  # d_t rho = -d_x{ rho [ f_B(x) + (K_B conv rho)(x) ] } + (sigma^2/2) d_xx rho
+  # K_B argument convention: drift(x) = f_B(x) + sum_j K_B(y_j - x) / N.
+  f_basis: cubic_bsplines_on_domain
+  k_basis: cubic_bsplines_on_observed_displacement_range
+  spline_count_candidates: [8, 12, 16, 24]   # shared count for f_B and K_B per candidate
+  smoothness_candidates: [1.0e-8, 1.0e-6, 1.0e-4]
+  ridge: 1.0e-8
+  diffusion: known_sigma_squared_over_two    # as written in the model form above
+  gauge: zero_grid_mean_on_K_B_constant_absorbed_into_f_B
+  no_oracle_information: [true_kernel, gamma, polynomial_degree, kernel_radius, oddness, M, M^2]
+  selection_metric: mean_validation_rollout_w1_only
+  shared_fit: one (f_B, K_B) across ALL training trajectories and families
+  identifiability_note: individual f_B, K_B curves are gauge-dependent; only induced
+    drift and autonomous forecasts are evaluated.
+
+pde_rollout:
+  scheme: conservative_finite_volume_muscl_minmod_upwind
+  cfl: 0.4
+  diffusion: explicit_centered, nu = sigma^2/2
+  boundary: no_flux
+  max_time_step: 0.01
+  negative_density: monitored_never_clipped
+
+metrics:
+  primary:
+    - time_averaged_density_w1
+    - w1_of_t
+    - central_bump_centroid_and_short_time_velocity   # window x_c +/- min(0.45, gap/2), t in [0, 0.3]
+    - central_bump_motion_direction_accuracy
+    - drift_rmse_on_held_out_matched_triplets
+    - predicted_and_reference_M_of_t
+    - mass_error_and_negative_density_fraction
+    - wall_time_preprocessing_fitting_rollout
+    - peak_cpu_gpu_memory
+  w1_convention: quantile_based_4096_midpoint_probabilities
+  uncertainty: paired_bootstrap_across_confirmation_triplets   # 2000 resamples, seed 20260711
+  affinity_defect_check: every method is probed with the SAME empirical objects
+    (the stored particle triplets, which satisfy the convex-mixture identity
+    exactly; density models via the shared KDE, MVNN via the particles);
+    additive models must give zero defect to numerical tolerance; the true
+    drift defect equals alpha*x*d^2.
+  cost_reporting: single-model fit/train, hyperparameter-selection totals, and
+    per-trajectory rollout times reported separately with hardware labels.
+
+freeze_discipline:
+  - protocol, model selection rules, and code are committed before confirmation
+  - the freeze marker pins SHA-256 digests of the locked MVNN checkpoints and
+    both WSINDy model files; confirmation refuses to run if any differ
+  - confirmation data are generated only after the freeze marker exists
+  - confirmation evaluation runs exactly once; reruns are refused
+  - no tuning of any kind after viewing confirmation results
+
+slurm_budgets:
+  smoke_test_minutes: 10
+  pilot_minutes: 20
+  final_seed_minutes: 60
+  never: [48_hour_gpu_jobs, automatic_extension]
+
+environment:
+  conda_prefix: /mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_multigroup_distribution_comparison/.conda/envs/r1c1-multigroup
+  jax_x64: true
+  account: multiscaleml
+  gpu_partition: general-short
+  gpu_constraint: a100
+
+seeds:
+  triplet_parameter_stream: 101
+  bump_sampling_stream: 202
+  brownian_stream: 303
+  mvnn_rollout_eval_stream: 404
+  bootstrap: 20260711
+  # per-object seeds are derived with numpy SeedSequence([stream, stage_base, triplet_id, ...])
+  # and recorded in the stage manifest.

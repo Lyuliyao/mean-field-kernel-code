@@ -1,0 +1,14 @@
+{
+  "alpha": 0.0,
+  "sigma": 0.0,
+  "bandwidth": 0.05,
+  "validation_rollout_w1": 0.011320247399506602,
+  "train_support_drift_rel_l2_mean": 0.07069188361300059,
+  "weak_relative_residual": 0.08270565170941784,
+  "acceptance": {
+    "max_validation_time_avg_w1": 0.02,
+    "max_drift_rel_l2": 0.12
+  },
+  "passed": true,
+  "wall_seconds": 5.074218240566552
+}

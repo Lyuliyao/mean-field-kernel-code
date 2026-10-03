@@ -1,0 +1,3609 @@
+{
+  "dt": 0.01,
+  "frames_used": 201,
+  "n_agents": 16000,
+  "port_verification_max_abs_diff_seed1": 7.771561172376096e-16,
+  "schema_version": 1,
+  "seed_ranges": {
+    "test": [
+      2001,
+      2030
+    ],
+    "training": [
+      1,
+      100
+    ],
+    "validation": [
+      1001,
+      1010
+    ]
+  },
+  "trajectories": [
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.851391088977806,
+          0.4324788381589012,
+          2.8459483414117317,
+          0.9354943560314564,
+          1.269979346917727
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.4939561275625179,
+          0.1368520039233785,
+          0.15133815368513318,
+          0.008154884150671653,
+          0.20969883067829875
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_1.npy",
+      "role": "training",
+      "seed": 1,
+      "sha256": "2a5c5a158fb30c11f5d89a8630dd634cb31119401bddaa3afca63d3adc4b80a1"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.8954734302423699,
+          2.4426772217828407,
+          0.2757478264052907,
+          1.800301577896962,
+          2.185681580435384,
+          0.5637032200998103,
+          0.16543988199920456
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.08835137077426619,
+          0.10049877406261518,
+          0.32289692327832503,
+          0.06230872914068492,
+          0.1619861467741052,
+          0.1866827788356924,
+          0.07727527713431115
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_2.npy",
+      "role": "training",
+      "seed": 2,
+      "sha256": "22ad6b36b6f77f3c50caf6389408b8bcb873a7f2e701a83c29289fb81559a95e"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7104315197882991,
+          2.403823395619191,
+          1.7464861081931033,
+          0.28238592672119756,
+          1.2993808207094215,
+          1.4371538944225022,
+          0.4792167439112357
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.14435427786534408,
+          0.009562654009852015,
+          0.06507878906858068,
+          0.4827817092599223,
+          0.03843798402353692,
+          0.18536701673568118,
+          0.07441756903708287
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_3.npy",
+      "role": "training",
+      "seed": 3,
+      "sha256": "adfdea256f433fd64619b0614e433b103d06b52aa9525f43536e8da616d51729"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.533982658443085,
+          2.9287311171231125,
+          0.24250807168680655,
+          1.8220674959850889,
+          1.1294597531318176,
+          2.405703620957422,
+          0.5235834484320854
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.06799303595053062,
+          0.145105044316307,
+          0.09025141104779301,
+          0.0914687876233509,
+          0.004405980321796227,
+          0.1458325034588357,
+          0.4549432372813865
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_4.npy",
+      "role": "training",
+      "seed": 4,
+      "sha256": "084cf15210bca995b7cb82bbc0cd6be5cd89c026b70d7a495ad4f749a385eeee"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.423822369209481,
+          1.545976683126426,
+          0.8574041402644248,
+          0.16179210714496928,
+          1.1501066423565547,
+          1.225419616259996
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.03150409855782509,
+          0.015810247942350978,
+          0.2736196989947021,
+          0.29802158749657287,
+          0.3187845446654559,
+          0.06225982234309301
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_5.npy",
+      "role": "training",
+      "seed": 5,
+      "sha256": "873bd1c4222223c7e286d0e9b5c7a05434b08eb7c4e417d659902d635a06d52f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.0298126094400153,
+          1.1072017193861348,
+          1.123490296763647,
+          2.9623349705593998,
+          1.8982688178214382
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.4598296378485678,
+          0.3650473694446855,
+          0.08340647515783202,
+          0.04506409884244166,
+          0.04665241870647302
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_6.npy",
+      "role": "training",
+      "seed": 6,
+      "sha256": "ec60b712e085fb4a0045c8cb2296df866f6212d9731d63ef88431315bf77c3f9"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.6916414029087266,
+          2.3270570707355804,
+          0.6756215699717756,
+          0.9004988547336763,
+          2.6206603361887857,
+          0.015795913696724173,
+          2.463685255148299,
+          2.3912082862561386
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.03587060564371507,
+          0.06458793830046619,
+          0.03725652234202727,
+          0.10739317032326888,
+          0.12815285926657566,
+          0.22489697574493966,
+          0.026505587870094965,
+          0.3753363405089124
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_7.npy",
+      "role": "training",
+      "seed": 7,
+      "sha256": "c490b47ad71105c561e36e5f603e2a3c0680699c22c4935f29546846966ba010"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.961830530013777,
+          0.9561325154565502,
+          2.3656468074600867,
+          2.6096895350886484,
+          1.173254419617582,
+          1.3136456193683963,
+          1.118246709268059
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.007156320184742207,
+          0.1443655087302434,
+          0.06319619372344437,
+          0.09166429233791339,
+          0.021602862681352343,
+          0.18053322928696386,
+          0.4914815930553404
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_8.npy",
+      "role": "training",
+      "seed": 8,
+      "sha256": "b1aeca8d2f3895d8f234f12d8164ac4bd3392a29e532a287ee97160350337b9d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.8604516272626661,
+          1.8094444501546856,
+          2.3326022487605362,
+          2.148223888810696
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.43137932375667215,
+          0.2700190857673641,
+          0.2913773444016155,
+          0.007224246074348365
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_9.npy",
+      "role": "training",
+      "seed": 9,
+      "sha256": "0a091ccb187628eb177b2043866304c967d870850e5fa7a01a1b7e344f6e3264"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.6230454302374406,
+          2.4853346558235923,
+          0.4478463692460608,
+          1.5384138493096944,
+          0.40775881206151987,
+          2.0671094393433935,
+          2.525243172936837
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.15883110409382128,
+          0.12380380305292885,
+          0.12259441535961914,
+          0.049443039930965396,
+          0.15725855155958732,
+          0.1326642350013146,
+          0.2554048510017634
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_10.npy",
+      "role": "training",
+      "seed": 10,
+      "sha256": "595113b858c6e1df9f5c0e8603514fb391684b104d720d7f3b765c7858175624"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.4978335873203448,
+          1.8044950728700724
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.28203375487079474,
+          0.7179662451292054
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_11.npy",
+      "role": "training",
+      "seed": 11,
+      "sha256": "fb3fbfaf89467788a64f279caf2a26babc3e8c2f651f973c2e738fcea6e48373"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.840258828578274,
+          0.5679611536192839,
+          0.5378742312543228,
+          1.0496677217878725,
+          0.6916237397697178,
+          2.011337228318354
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.09032079360493335,
+          0.5990768022061436,
+          0.16254297853560237,
+          0.00198281384027557,
+          0.03644278541559387,
+          0.10963382639745131
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_12.npy",
+      "role": "training",
+      "seed": 12,
+      "sha256": "e4cde8784c333ceafabb08dc8cb9a5d0ce649c31f1a7abbec10dc837519ec7f2"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.565907544796177,
+          2.4330701963530266,
+          0.7843390842494298,
+          0.23159837315526421,
+          2.83939734133819,
+          1.8413750731413057,
+          0.00789226087889916,
+          2.7312215341975135
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.23712598410578364,
+          0.07586831531043445,
+          0.24761033077867914,
+          0.006966661223896237,
+          0.1144578072790348,
+          0.035746964813562855,
+          0.08916809797674795,
+          0.19305583851186076
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_13.npy",
+      "role": "training",
+      "seed": 13,
+      "sha256": "cbd75c679c88ad1b43f6a3b1b8bde430a49f3bc7e961a6debdb1cd2ba20568b0"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.0828400005027699,
+          2.1082179167461645,
+          2.5803563599577832
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.34660668824798807,
+          0.23477834659718463,
+          0.4186149651548275
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_14.npy",
+      "role": "training",
+      "seed": 14,
+      "sha256": "ce029187e1485ffa042476c81b040dbfe4198113402d48b15fa3ccbf350e2f7a"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.4474513340081723,
+          1.03322027337857,
+          0.13451452707125644,
+          1.714791771101193,
+          0.4387362801707926,
+          2.1563141306264137,
+          1.0360695122275192,
+          1.3710290268266139
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.06269451703787438,
+          0.030000196905901808,
+          0.47438005180385034,
+          0.0008120576005807483,
+          0.22709618787812635,
+          0.028959478737856675,
+          0.093629537173819,
+          0.08242797286199059
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_15.npy",
+      "role": "training",
+      "seed": 15,
+      "sha256": "d2e6478502f26f7b420cb693bd59b4ef0626364ea75188eacc467362d4b18681"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.2922324364705569,
+          0.2822214763845736,
+          1.0442386513079864,
+          1.8645271151420382,
+          0.06496500954813156
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.260099004733271,
+          0.5112767459935823,
+          0.02723943291878652,
+          0.10292980700908541,
+          0.09845500934527468
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_16.npy",
+      "role": "training",
+      "seed": 16,
+      "sha256": "97acb334023403430a338333a2a9ab806f52f799135fd65234803de3eee4753f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.4829192735073209,
+          1.6732336420970764,
+          1.1042398249928138,
+          0.6448258906853053,
+          1.1574721127675955,
+          1.2844934972808253,
+          1.8340293254969415
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.3944857648271149,
+          0.009091387460273373,
+          0.09183208211339397,
+          0.24134124501467907,
+          0.06093494462927078,
+          0.017660751956756433,
+          0.18465382399851138
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_17.npy",
+      "role": "training",
+      "seed": 17,
+      "sha256": "e2baa89f3ee2ace6dcfab7f14520aabd7ada03fc046bf7b339d54f181672a924"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.1522440378646484,
+          0.8424699841080102,
+          0.24817475399434896,
+          2.909313957878579,
+          1.691780236103856,
+          1.9329628864537394,
+          1.7306143905078273,
+          1.426082909189808
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.011308727843541914,
+          0.12421688680757073,
+          0.1245503048228794,
+          0.07093938330710303,
+          0.37733594249527547,
+          0.07007286270346905,
+          0.008427430399071902,
+          0.2131484616210885
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_18.npy",
+      "role": "training",
+      "seed": 18,
+      "sha256": "378d95f3968ee26d26e4a18a8817c3fe2ac7dfc36d1a95586aa767cb14e20f03"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.777608034450111,
+          0.8216099636948463,
+          0.18014581236757998,
+          0.9316303749393358,
+          2.154555773616231,
+          2.3428967453045493
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.2765313377890787,
+          0.020108384293434558,
+          0.06232874376438581,
+          0.29650189372122343,
+          0.09374975974080954,
+          0.25077988069106805
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_19.npy",
+      "role": "training",
+      "seed": 19,
+      "sha256": "399a7e62d26f4e19f9128d85ff781c34ba5a3723f3f13bd1d313574d72f00fcf"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.3834401294088265,
+          0.36515907772932565,
+          1.5678250551567974,
+          1.2275052263226147,
+          0.21491864161399477,
+          0.2969000274555954,
+          2.9588650919002406,
+          2.08220364707276
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.12170110700415808,
+          0.11967942369038027,
+          0.10752713464523818,
+          0.10351486771769487,
+          0.016257640603669157,
+          0.012485644137184716,
+          0.1789919601590977,
+          0.3398422220425769
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_20.npy",
+      "role": "training",
+      "seed": 20,
+      "sha256": "08ef208cd980e8bf06b557caad9aa1a2e1505e298582c5153be260bb905f7eb6"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.817541088712904,
+          2.1294035712252755,
+          0.26729361876662683,
+          1.8921432476217128
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.4397318482331805,
+          0.1253086559750853,
+          0.029716420714057754,
+          0.4052430750776764
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_21.npy",
+      "role": "training",
+      "seed": 21,
+      "sha256": "a02fbc381088397ee479ca729d43b7c0870893bc712c11d232f219d22ad8c248"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.5978861381252487,
+          0.26567511978383673,
+          1.95957506280276,
+          1.3780111342318402,
+          2.963026856640605,
+          2.5547042095533925,
+          2.5108839697111334
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.03247180312265392,
+          0.12529756364722883,
+          0.4780339730942946,
+          0.008491311626194906,
+          0.1749383091938771,
+          0.10418138615084079,
+          0.07658565316490999
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_22.npy",
+      "role": "training",
+      "seed": 22,
+      "sha256": "d56348f64e79462085e4501fa059c93edaa3715d3cb31de9c395445630a21d71"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.9243746626346918,
+          0.3859326729529087
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.2572696155722992,
+          0.7427303844277007
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_23.npy",
+      "role": "training",
+      "seed": 23,
+      "sha256": "1e1bc2c7474271642aa643078458a4b59ff6b1afb2d47bd6e4081bf37ad47ce1"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.2155319469174315,
+          1.724213457981576,
+          1.5191993018104442,
+          1.6926375222907524
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.209816794787923,
+          0.4181911073273177,
+          0.06996107749000227,
+          0.30203102039475693
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_24.npy",
+      "role": "training",
+      "seed": 24,
+      "sha256": "4b57ec023eaed55d5b5dc83af87a4ebe2b08588c38f940c014af1803318f4753"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.0009361055130109319,
+          0.6497953933884508,
+          1.1040878909704959,
+          0.0060786240429066,
+          0.5792486411028034
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.3061785076937627,
+          0.20909913676474604,
+          0.026224915865787988,
+          0.13602770929582972,
+          0.32246973037987364
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_25.npy",
+      "role": "training",
+      "seed": 25,
+      "sha256": "fbf9f1a94c8683e83225b7daedce002469b37ed5f8d22b0240559f43b88cc75b"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7031985718437496,
+          0.20282327457697835,
+          2.1385746116463413,
+          2.439345604108321,
+          1.6450100537546248,
+          1.9029264128359742,
+          0.507599747281358,
+          1.6629952510770782
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.045571742365943246,
+          0.11597623615651763,
+          0.00839083210813517,
+          0.40460708764258335,
+          0.03587707469037557,
+          0.06352880667254572,
+          0.04717195412943312,
+          0.27887626623446615
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_26.npy",
+      "role": "training",
+      "seed": 26,
+      "sha256": "2ed6245b495fe7c2a9350ad4cd94859abf93578b1a402e485ccbcdc724381c7e"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.9414428166672949,
+          0.363591296584882
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.12829595641134411,
+          0.8717040435886559
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_27.npy",
+      "role": "training",
+      "seed": 27,
+      "sha256": "b6b95e10cc4c8065734a164411237087ce79d49cf85a7613a80bfcd8b6233507"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.65467886223059,
+          2.297125579672697,
+          0.09659580264946621,
+          0.1505991819848035,
+          0.9882451033919187,
+          2.6280113323716776
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.430037746094177,
+          0.05342933555199469,
+          0.10460326667180296,
+          0.011393123850492331,
+          0.2671257290968479,
+          0.13341079873468506
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_28.npy",
+      "role": "training",
+      "seed": 28,
+      "sha256": "c32f87d8ee92ecb074881e777f16ae2ae518d3460b7a59429114a2cc672bbd9f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5189668957143483,
+          1.5577020888891346,
+          0.7956096418116331,
+          0.3876649345555022,
+          0.06219309773059778,
+          1.1814838827709746,
+          1.1406858056297389,
+          0.07035586002000449
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.09078050235453423,
+          0.3161726018468211,
+          0.24058441153728014,
+          0.030601623464743682,
+          0.04977191358697357,
+          0.20401862846970004,
+          0.058222182535138126,
+          0.009848136204809095
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_29.npy",
+      "role": "training",
+      "seed": 29,
+      "sha256": "3f4537d6e0e8c8ddd868eda41b8b84092e643e98dbe0df29d90c8a12862f47e5"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.2873209959974334,
+          0.27681904965987636
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.10184797168523514,
+          0.8981520283147649
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_30.npy",
+      "role": "training",
+      "seed": 30,
+      "sha256": "3cf1f6d8237ec42989d6f842197ad5d695e2dc00f371fa6944d2b8f167a3dde8"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.2030347870848993,
+          2.0181924423010926,
+          1.4176341179377099,
+          2.0322833308164405,
+          0.11897416531384386
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.01290580687021473,
+          0.003932830725502657,
+          0.6233671571743564,
+          0.10249959336585178,
+          0.2572946118640743
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_31.npy",
+      "role": "training",
+      "seed": 31,
+      "sha256": "68c4658afbc1f0e23e06719e6f4d7a5952166f20b6cd67c1d5c1f148100554bf"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7166884864162517,
+          1.13140666188441,
+          0.9688055396194271,
+          2.0598416644989697,
+          2.91669610004562,
+          2.9004907383053653,
+          2.0138952669481602,
+          2.4903046974628866
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.22520841678896752,
+          0.13966186668624397,
+          0.012616952193370725,
+          0.07441051308786496,
+          0.28190744445851523,
+          0.10693594315847127,
+          0.06237100796695557,
+          0.09688785565961064
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_32.npy",
+      "role": "training",
+      "seed": 32,
+      "sha256": "94a7d0f45b9c477ae1cee2a6de9358cb74eb35b764e6c48a483a2d9facee7926"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7054735757736692,
+          2.724311324882459,
+          0.7627486604964059,
+          1.7663438116645453,
+          1.0773699618309398,
+          2.26912085124797,
+          1.629176585833299,
+          0.606253373467736
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.4520726235557425,
+          0.1430464814120563,
+          0.01059623317419531,
+          0.007559105727455826,
+          0.07719560852666378,
+          0.013656013948371216,
+          0.10121502825945328,
+          0.19465890539606184
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_33.npy",
+      "role": "training",
+      "seed": 33,
+      "sha256": "df8c52b928d7811a3e11ed98bfee163d6242e86f7f2c83c9daf0e5ae16400602"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.616530742811627,
+          0.7282271628132427
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.6158674498204515,
+          0.38413255017954856
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_34.npy",
+      "role": "training",
+      "seed": 34,
+      "sha256": "218a50f80ddc4be5fd39eea0026b5deda93d51779a6cd61dd0e8fec7cde8454b"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.3754866683100588,
+          2.805020552549438
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.9740727215093,
+          0.02592727849069994
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_35.npy",
+      "role": "training",
+      "seed": 35,
+      "sha256": "a54c39057e4102625e20bd43edb4dba6d06104a365e8e42e23788faab99baa37"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.194710282207005,
+          2.681497210709634,
+          1.2101580225440003,
+          2.0490138690839146
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.3237555842920417,
+          0.1186733129674252,
+          0.3621284267920492,
+          0.19544267594848408
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_36.npy",
+      "role": "training",
+      "seed": 36,
+      "sha256": "51212a8e4fccaad2cb6affb4ffd59ed8f79cb667f0302b3019cff2913c6a647c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.9850061624074222,
+          0.2069797086960674,
+          2.1084049413291566
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.38106347453134687,
+          0.04621681044506069,
+          0.5727197150235925
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_37.npy",
+      "role": "training",
+      "seed": 37,
+      "sha256": "e028e009f3c58294cd7742c5c252f8cad3ef780d4412abbbcdf821f3dd7bcc09"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7492075771952327,
+          2.1611434992333023,
+          1.9038420187855816
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.510743571340525,
+          0.028192694423676643,
+          0.46106373423579833
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_38.npy",
+      "role": "training",
+      "seed": 38,
+      "sha256": "d39c80a42708c6e155ef067b59cff367cb88ed3018b71e3d5b89eca275bb74df"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6180062186194657,
+          0.4076226058658653,
+          0.919159705264977,
+          1.7375540364052,
+          2.3738599184896847,
+          0.45322194809832617,
+          0.6874916000977984,
+          2.82105001945496
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.10692981716545966,
+          0.21672504361570946,
+          0.21616886111846106,
+          0.02677966642879314,
+          0.028363021372375924,
+          0.018625577886087232,
+          0.15570732105483884,
+          0.23070069135827467
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_39.npy",
+      "role": "training",
+      "seed": 39,
+      "sha256": "85ce986343d375af729efb1b57244cdffa9e3a314ac1fb12a7e3446a6ff5624f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.0802448704056413,
+          2.825763051703748,
+          0.17895618013432257,
+          2.07156291217696,
+          2.7671925570396487
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.40840638885497577,
+          0.0952824680133913,
+          0.09743535334247024,
+          0.3737859722154571,
+          0.025089817573705587
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_40.npy",
+      "role": "training",
+      "seed": 40,
+      "sha256": "022951b1abfef0eed255b8c77568206bfca4844c6801c9ca3ec9678599c58daa"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.3037962719067977,
+          0.37791224036460624,
+          2.4809642577922344,
+          2.5472162202935866,
+          1.0493485099937203,
+          1.534227704146379
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.3126024991467965,
+          0.1008639033853187,
+          0.05455557570941722,
+          0.33136655483964,
+          0.18816321948281173,
+          0.012448247436015934
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_41.npy",
+      "role": "training",
+      "seed": 41,
+      "sha256": "2ac6701aaf71a2ba10d91df2d321ecd7a905bc034bff84613991203a66df6339"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.3166353192561568,
+          2.5757937597341476
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.7639816483259692,
+          0.2360183516740309
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_42.npy",
+      "role": "training",
+      "seed": 42,
+      "sha256": "f953aca07f2193e590d5bc6c1089966f6e66b60e2350bd71911c32973d51ef6b"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.13132597091698983,
+          0.06008876062265056,
+          2.51763774753309,
+          1.7614291427641753,
+          0.6741156906108733
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.3256883414340356,
+          0.029227592694409544,
+          0.2592877532427179,
+          0.13095161869572014,
+          0.2548446939331168
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_43.npy",
+      "role": "training",
+      "seed": 43,
+      "sha256": "1edb01262752b08d809a13f14f1ef9cd770a246ea0a5c3cda644a4f558b842c5"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.774339224318319,
+          1.2173121834633933,
+          2.907551844433266,
+          0.48695137435670044,
+          2.5718810206703147,
+          0.48913581321319644
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.1159298215056739,
+          0.27581532997711833,
+          0.19217400458833794,
+          0.2535629578086213,
+          0.058549556930234004,
+          0.1039683291900143
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_44.npy",
+      "role": "training",
+      "seed": 44,
+      "sha256": "dc45c44744a1108005ea4c11c0a2b04351738fc8ad6086dde209a6bcff72e745"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5854734355106084,
+          2.290950719405778,
+          2.4350783010288213,
+          1.530686565602171,
+          2.3380190171933624,
+          2.388339913380134,
+          1.784265013022603,
+          1.2257341406878317
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.05140754993687783,
+          0.02943154636118215,
+          0.2277735494970306,
+          0.11296898967866621,
+          0.14700716624005894,
+          0.05146297869830413,
+          0.16997247485041694,
+          0.20997574473746297
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_45.npy",
+      "role": "training",
+      "seed": 45,
+      "sha256": "2cc5e78bf799667722476821c9452901a0edda48f4b431ed12ebf45298992d9c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.23168037963522958,
+          0.8177092677559132,
+          1.8655514467383991,
+          2.8020852248680925,
+          0.25484036081632966
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.06837705713266426,
+          0.3492322447657647,
+          0.09009374113248643,
+          0.23565004687852897,
+          0.2566469100905558
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_46.npy",
+      "role": "training",
+      "seed": 46,
+      "sha256": "9a6f0e65f3e9b92e0c2cc15f05787cdbed85cb12a3b97c425775bbf21ec9ae9c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.2610064513588237,
+          1.3955416146884505
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.17000117298761083,
+          0.8299988270123893
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_47.npy",
+      "role": "training",
+      "seed": 47,
+      "sha256": "1db36ad3784a9e5188fd898081a2f6d3a635cf57d079b908aa0748db6ed8680c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7873204700880199,
+          1.54140163516203
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.9412339225857643,
+          0.058766077414235555
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_48.npy",
+      "role": "training",
+      "seed": 48,
+      "sha256": "fc2ddcc726336f46a7627f038f8b79b0d6846339840c33ff43ec121e2b034bb8"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.779651780509197,
+          1.175850635892561
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.7017318913616151,
+          0.2982681086383848
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_49.npy",
+      "role": "training",
+      "seed": 49,
+      "sha256": "9268f55f3ad4f491eee2f2d8f63140c963aaf42018bbe00482ac8d97755c3a8c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.5010080037507474,
+          1.6437133805526751,
+          2.9203472884203387,
+          0.7105006737370795,
+          1.9407700297506523,
+          0.1950782132366664,
+          1.6667328199555835
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.022667269286047398,
+          0.10862489973517452,
+          0.3211720521984476,
+          0.12024189151076933,
+          0.2756915288362143,
+          0.08556877323459573,
+          0.06603358519875117
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_50.npy",
+      "role": "training",
+      "seed": 50,
+      "sha256": "c6103035f82f031d5f13fddc580faff856d151b6d3bb350ad5af0d3890c2adc8"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.9214150823662204,
+          0.7647199032430737,
+          0.6678555749706628,
+          2.3586126620576264
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.1375313594971347,
+          0.3304641184899845,
+          0.09785626821934403,
+          0.43414825379353666
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_51.npy",
+      "role": "training",
+      "seed": 51,
+      "sha256": "f204625b818a326d5fb124c75229289b22d3b4c140b320d85f623581354cdca3"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7226788869058758,
+          1.5586307375697857,
+          0.019168624509460552,
+          1.6508771777243794,
+          2.905015296941386,
+          1.1941790892040518,
+          0.04751221261176064,
+          0.7312572383831466
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.14440341978799867,
+          0.03650203596596277,
+          0.012254832536203351,
+          0.5125842664916589,
+          0.015626754471332556,
+          0.057062163347497245,
+          0.15068258397999432,
+          0.07088394341935218
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_52.npy",
+      "role": "training",
+      "seed": 52,
+      "sha256": "c33820f21c826c82ec2f2d5d4b73349e94e984701a1dc2fadf8fe1106fce6cda"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.1567319613031026,
+          0.9933815734529856,
+          2.7992659908600794,
+          0.3144743228559813,
+          1.9993099203313278,
+          2.4577617804186085,
+          2.0747007298232223
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.05661979040863155,
+          0.07824666071704732,
+          0.143620736514663,
+          0.04061553915608799,
+          0.03769491757410376,
+          0.4068861086724559,
+          0.23631624695701053
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_53.npy",
+      "role": "training",
+      "seed": 53,
+      "sha256": "a91bde80906c0a0988d339626f8caeb6e6d1a838db87173abc41dee8784dee8c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5557399126488611,
+          0.238961915839229,
+          1.7323191292957514,
+          0.25836116454532043
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.042170853489265026,
+          0.30863005657908277,
+          0.02921592159355689,
+          0.6199831683380954
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_54.npy",
+      "role": "training",
+      "seed": 54,
+      "sha256": "450131fd99106cd87e64fa200775c4fcf634e1fe06310b95445c698a4ee7e6b9"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.6119368351490238,
+          0.6550856965278687,
+          0.690291451835866,
+          1.4782292977363547,
+          2.2596687120429495,
+          2.112697278039903,
+          2.841257968301008,
+          0.20335583094168375
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.23763401405824003,
+          0.005172150646989947,
+          0.1735746353614293,
+          0.0036698677823918187,
+          0.18088513019343702,
+          0.02019539189371176,
+          0.2175188477389412,
+          0.16134996232485876
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_55.npy",
+      "role": "training",
+      "seed": 55,
+      "sha256": "0d24662666d0667449cf1b00d21b406fb8f8a1523ba3b1010720e276a3e499f7"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.05070844343592951,
+          2.942403203307827,
+          2.1738126363714008,
+          1.6326364770281507
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.21604177235830813,
+          0.3053421999373938,
+          0.2139777075921445,
+          0.2646383201121535
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_56.npy",
+      "role": "training",
+      "seed": 56,
+      "sha256": "d5840e5f63524f8c71a216d91a804dc9d10ce098fa23a39be8c467c1777778fc"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.4049359046527055,
+          2.523701009255635
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.6280822056361726,
+          0.3719177943638274
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_57.npy",
+      "role": "training",
+      "seed": 57,
+      "sha256": "10e57ee4562bd4c9023052450cc740bbe0f1c03005993d512bcb80540934cf89"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.639500827692313,
+          0.7292743564716355,
+          0.6252613968460773,
+          2.537438799591061,
+          0.42171892406054645
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.049053366525453966,
+          0.03425994184263445,
+          0.38361358686519687,
+          0.4856989550766565,
+          0.04737414969005812
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_58.npy",
+      "role": "training",
+      "seed": 58,
+      "sha256": "f693c947bd2a955aa5106250c7c6d6bd6e3e05763136c66679ebb19d5fe317ad"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.478198504596506,
+          0.3508313407417498,
+          1.1322888260270578,
+          0.5587870504298812,
+          0.48084780205871136,
+          0.017458740089110858,
+          2.9179520817889806
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.06574133013240421,
+          0.1629915707101524,
+          0.042322839312390295,
+          0.2207303950293937,
+          0.035728799561148605,
+          0.25523169394767614,
+          0.21725337130683456
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_59.npy",
+      "role": "training",
+      "seed": 59,
+      "sha256": "92b4cb92ee34e64ac7ae10fd68c6392682e7bfa48eca78fe494ebdffdbea2b48"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.08143917568501369,
+          0.1641626623266701,
+          2.9714745639046396
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.4960323015640711,
+          0.2589199237098748,
+          0.24504777472605407
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_60.npy",
+      "role": "training",
+      "seed": 60,
+      "sha256": "5f091e1b559f90814109212cd3c31b9b35dbb2d6991f4dc594802fd6e025410f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.3158068545768,
+          2.0134293105016945,
+          2.1274645096219738,
+          1.301258379481785
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.03690442656713572,
+          0.16416028881976152,
+          0.4676720770514689,
+          0.33126320756163397
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_61.npy",
+      "role": "training",
+      "seed": 61,
+      "sha256": "33b08474094c74b0f7cbb49b32ac56149c2366e2fff7d0b5ea998f9f7876815f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.2433199120455374,
+          2.342092153013917,
+          0.8635659878355982,
+          2.0797092375233937,
+          2.7782182776547892
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.41097867186342846,
+          0.16538526205297818,
+          0.10338735700718353,
+          0.02983934901285272,
+          0.2904093600635571
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_62.npy",
+      "role": "training",
+      "seed": 62,
+      "sha256": "6aa33d2513c0a3b1dc26d741a9728d231ada7a4fdafd0f8b05bc1564c7fc7492"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.976776606578871,
+          0.5900621290297096,
+          1.51586283666785,
+          0.6011373257969267,
+          0.5169843174486102
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.10400005970195558,
+          0.07122443627152807,
+          0.17607694338911392,
+          0.5208946271051602,
+          0.1278039335322422
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_63.npy",
+      "role": "training",
+      "seed": 63,
+      "sha256": "0c927af6ae6108e3b805f9e51dd249c7264348ba0411a3a3a96b71f4e8b2df4c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5700188874222283,
+          0.19713281228713198,
+          0.9556763344684466,
+          2.575252285367261,
+          0.2536761061670052
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.6829264357222021,
+          0.1397138764850744,
+          0.03518457883378979,
+          0.015095795291889258,
+          0.12707931366704453
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_64.npy",
+      "role": "training",
+      "seed": 64,
+      "sha256": "8c47df91c4ceb8bd9037ac50df75d1e5762584789cd4c4dcf223ec507cdd8eb1"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5546665326187603,
+          1.1245756901138826,
+          0.686035569941784
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.12816452438218914,
+          0.8058986384625003,
+          0.0659368371553106
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_65.npy",
+      "role": "training",
+      "seed": 65,
+      "sha256": "105992b5ce18d4852bfe459bc9063de99deb4dfdae398df0452b45f5206f7561"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.07845439337298,
+          0.21880432868784738,
+          1.8727614162937116,
+          1.4175572906325686,
+          2.5470562667468615,
+          0.30848479803221773,
+          1.3125746470113788,
+          1.3801340361917358
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.27604285746335644,
+          0.020974020382831048,
+          0.15286877708682411,
+          0.08920165585501075,
+          0.2080598275292157,
+          0.1408979101721356,
+          0.060627507685297656,
+          0.05132744382532883
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_66.npy",
+      "role": "training",
+      "seed": 66,
+      "sha256": "0e670c77abc1248f96b1e6335541e7c59994c035929c3758ee2f687861513446"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.3808149066002272,
+          1.541955107435108,
+          0.8917278654055737,
+          1.7941108560625398,
+          1.2938116532836985,
+          0.9248828062737953,
+          1.065902184069717
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.008656163429786326,
+          0.24064894268694226,
+          0.0177281308751061,
+          0.003847088283046695,
+          0.05495710496627092,
+          0.48111282074001294,
+          0.1930497490188348
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_67.npy",
+      "role": "training",
+      "seed": 67,
+      "sha256": "ff42165579de3b1f83785cfdb014a375429de4fedeee75c6ab1782e41ef8736c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.544978823659257,
+          2.020566815955711,
+          1.878722322797282,
+          2.9274527636955603,
+          2.078370819827994
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.0846241268740065,
+          0.047188712793596814,
+          0.6596934015528692,
+          0.13552984870879733,
+          0.07296391007073018
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_68.npy",
+      "role": "training",
+      "seed": 68,
+      "sha256": "90d43654e3228027fbb61c1158306fe4481f82a1b7b744b1a40d4b3c9197b837"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.580556107458337,
+          2.5948849763608988
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.3998604344417414,
+          0.6001395655582585
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_69.npy",
+      "role": "training",
+      "seed": 69,
+      "sha256": "576a01c5ab8baa905b2383347b25d5b373670da4013102c7f4a67c867f5a8270"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.1714175527360133,
+          0.9665679787379359,
+          2.8956718691838246,
+          2.2210399013779427,
+          1.3745939772963907,
+          0.6226568047982962
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.0014413508327172197,
+          0.6225635345414783,
+          0.11607619919410984,
+          0.0018338949279982052,
+          0.1548550540817907,
+          0.10322996642190588
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_70.npy",
+      "role": "training",
+      "seed": 70,
+      "sha256": "ff4b0a7acd0093c9f75f336237c24b14a412a0b8d6e30fbd7aa9a66794668461"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5826165069392775,
+          2.282959676251312,
+          1.9042831876229158,
+          0.6125172893375295,
+          0.1373090967670738,
+          1.5694963232778623,
+          0.6042355218537222,
+          1.776891772332004
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.009881077002902238,
+          0.06055559715203964,
+          0.04105467293808465,
+          0.07788566678530738,
+          0.038063626281601946,
+          0.48826995692729636,
+          0.0943995918875531,
+          0.1898898110252144
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_71.npy",
+      "role": "training",
+      "seed": 71,
+      "sha256": "482695190ba45baaf9e31ff0ec6b012d99a2eabf2938731f9f1f05d1e895b915"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.02002536803522792,
+          0.6943447667091488,
+          0.3427066337859511,
+          2.146749906562169,
+          0.9313649376450562,
+          1.719923513064402,
+          0.15567252771809115,
+          0.8739507574789569
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.2639249421052911,
+          0.2375976822910338,
+          0.15538996582831996,
+          0.07019264745358053,
+          0.13392800102882815,
+          0.03718423490354138,
+          0.07390616768105471,
+          0.02787635870835053
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_72.npy",
+      "role": "training",
+      "seed": 72,
+      "sha256": "a06768549f0c41b4dd6bb66668c21914a98cf75e9f205840f54ccd8ed9d71753"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.9101026135842907,
+          0.8057033436113876,
+          2.955471439026608,
+          0.6596737459989248,
+          0.09602504794465849,
+          2.564091329122787,
+          0.5124737974435073
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.15155610461056412,
+          0.26599710289875317,
+          0.022958392487088784,
+          0.021740164719389277,
+          0.10349080893827346,
+          0.4021895548935647,
+          0.03206787145236638
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_73.npy",
+      "role": "training",
+      "seed": 73,
+      "sha256": "813a90a3aaeea686d439b4e81da5edd1aeebb3036eef77976c5515a4aabc8fc6"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5621628505457594,
+          2.0292124183898936,
+          2.007596814378143
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.1585107699797374,
+          0.8399849591803303,
+          0.00150427083993243
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_74.npy",
+      "role": "training",
+      "seed": 74,
+      "sha256": "c58ab99b8faa3f14c1717e36f4bd0752d5ad4ff226db56e6ef5e72eb08f00639"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.45938714048985796,
+          1.9927513575723808,
+          2.0529952761829326,
+          2.799493206945611,
+          2.2544699874805163,
+          2.7805871084061047
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.130044947418386,
+          0.5151492262049688,
+          0.008931091749459056,
+          0.11398495053327785,
+          0.22432768426746322,
+          0.007562099826445056
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_75.npy",
+      "role": "training",
+      "seed": 75,
+      "sha256": "6b0866014f1eae29c15f331f0d1955e11f55d111a07577b2ee1d3985516a9304"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.956569918527776,
+          2.047199224404632,
+          2.162656520478071,
+          0.23434197945662938,
+          0.926676843086241
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.25309125233904123,
+          0.47542314689775084,
+          0.06460989042426879,
+          0.13567601863684928,
+          0.07119969170208969
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_76.npy",
+      "role": "training",
+      "seed": 76,
+      "sha256": "e2e0a57dec991952e8fb30e387676654c4e6493719ef94855922dde9e40b9dff"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6535158674009456,
+          0.7316645908603147
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.4836728766326063,
+          0.5163271233673937
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_77.npy",
+      "role": "training",
+      "seed": 77,
+      "sha256": "44fe0cfc47a70dde0964fa6f111dd7da0ff857165e46aa53da6336ef06a95c4d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.745405911368507,
+          1.5543495608171773,
+          2.5113846116138783,
+          1.1170043803526144,
+          1.7087793893334062,
+          1.1392070187764416,
+          0.9724232241013855
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.09203753292532194,
+          0.26080246581192174,
+          0.22039253550473148,
+          0.06594952675081396,
+          0.11312587626771325,
+          0.21115942576373317,
+          0.036532636975764435
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_78.npy",
+      "role": "training",
+      "seed": 78,
+      "sha256": "6ed0f8333ca8603042ff4dfca85615a0e2d71c9099790a9e111238f3e1899948"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.21486782041954333,
+          2.7692440620065657
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.3849968983608,
+          0.6150031016391998
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_79.npy",
+      "role": "training",
+      "seed": 79,
+      "sha256": "ce4e09679be43801c59de4cb4980ef230bd286d2c076e19eae8c4db6450eefcf"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.05525639047921305,
+          0.10990112812963992,
+          1.7841216878474757,
+          1.7571409295187699,
+          0.6719047711318236,
+          1.9144016567179731,
+          2.326574446503406,
+          2.2357993679349697
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.03509489648370851,
+          0.2416387178228256,
+          0.09848874707476345,
+          0.2081706432871284,
+          0.09238291362459987,
+          0.22039123827833115,
+          0.0501578418068116,
+          0.053675001621831496
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_80.npy",
+      "role": "training",
+      "seed": 80,
+      "sha256": "34f9acbbe27ac95e8440104bb9df4e509d8a631e1aead11b18f98dbbb4e846da"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.6348849688935888,
+          2.7361119575679265
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.5175845364599269,
+          0.48241546354007303
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_81.npy",
+      "role": "training",
+      "seed": 81,
+      "sha256": "472173530834feff51257c4142363def298fe188562efd7ed1fdea7eb3b76214"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.5643638467794925,
+          0.6530591980078184,
+          2.940436238877064,
+          1.2257669414570072,
+          2.8172157445246677,
+          0.6719056401975203,
+          0.9160143854424253
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.3769007831071921,
+          0.05566051432795133,
+          0.08545325167027223,
+          0.18955025035849113,
+          0.22425146915511454,
+          0.04392497720526285,
+          0.02425875417571587
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_82.npy",
+      "role": "training",
+      "seed": 82,
+      "sha256": "ed77d86db694753295102bfc91fd521e28ac4b94111fdfd59942271261f63e2d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.1338145790287355,
+          1.887279689523531,
+          0.922443115430306,
+          1.0282485881412136,
+          0.7426262200795084,
+          2.6639599709632815,
+          1.2208741254243831
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.10675187804074004,
+          0.09649205250035203,
+          0.16316733161897318,
+          0.19430351203125756,
+          0.26072990364772375,
+          0.04426610704172331,
+          0.13428921511923023
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_83.npy",
+      "role": "training",
+      "seed": 83,
+      "sha256": "bfe875af50cd950588c88e55f8469fbc10bb6f43c9355eaf9ba1f4d76b8aa1e1"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.7006109881955047,
+          2.2478668632959327,
+          2.651806643370198,
+          0.6823680370589342,
+          2.2052084249435415,
+          1.9463869562487603
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.03791220442259684,
+          0.0666071042871981,
+          0.14395885285469315,
+          0.020467365918288263,
+          0.48702038153400135,
+          0.24403409098322226
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_84.npy",
+      "role": "training",
+      "seed": 84,
+      "sha256": "a758163bc23ac9e069cfce94e2a0a2fc007610f6fad58a9fcadb721cd65f7844"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.4153069864936922,
+          1.388716466381887,
+          1.4342042209807329,
+          2.6407809716205257,
+          2.3792685288003304,
+          0.6938655032188226
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.27644802491796006,
+          0.067817069539015,
+          0.18853544237078657,
+          0.007230768347404505,
+          0.4502510768312651,
+          0.009717617993568765
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_85.npy",
+      "role": "training",
+      "seed": 85,
+      "sha256": "8e9d3d223bb47cf8f963f1f4a614416b23f84623df9e7396c819a8e1713026ba"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.5260627305957096,
+          1.8467541088883785,
+          1.117632312774857,
+          1.105047078598981,
+          2.3809352800028085,
+          2.8784130653795694,
+          0.3948768676366696,
+          1.2121523999375061
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.045896616177066286,
+          0.031453587533350764,
+          0.09908403799959092,
+          0.02811803226387073,
+          0.022936087040397766,
+          0.14522038427951292,
+          0.18066195421722678,
+          0.44662930048898375
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_86.npy",
+      "role": "training",
+      "seed": 86,
+      "sha256": "1ff03d1b2091f12a31118401d68ef5bc806aacca2c471dec6c972f466f7edfae"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.3506179296077097,
+          0.5171759793999813,
+          1.4425348716695063,
+          1.2840992792498196,
+          0.5657142021521283,
+          1.6173114017638168
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.11376262381019585,
+          0.0969554446943708,
+          0.22031167153259731,
+          0.5562361459875113,
+          0.0003905872584119517,
+          0.012343526716912839
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_87.npy",
+      "role": "training",
+      "seed": 87,
+      "sha256": "a58c34926d7df46eeadc3e4b60164393e65c8ce52e239ead931ce1a966851d01"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.109562663784433,
+          2.065528498743009,
+          2.0666072190781914,
+          1.9873154744235233,
+          0.3667732923615261
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.2767802430883608,
+          0.0969141648454,
+          0.19449996394827834,
+          0.024861508306397252,
+          0.4069441198115636
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_88.npy",
+      "role": "training",
+      "seed": 88,
+      "sha256": "0980cc487b4604aef469516c84077f1607f28c233419603deb7d15fd61bc8c11"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.309816518973957,
+          2.1933576373931034,
+          0.05898298402763069,
+          1.6202127794278351,
+          2.7034050041988937,
+          2.3347042613927544,
+          1.983194164284113,
+          0.88756693165531
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.09082638861925842,
+          0.08194648927357526,
+          0.07549841812972262,
+          0.0863366716351196,
+          0.07224505009685431,
+          0.39906067668634926,
+          0.016094926796108834,
+          0.1779913787630116
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_89.npy",
+      "role": "training",
+      "seed": 89,
+      "sha256": "49da1c97fda5f5a457f20bb304af916ff86a827ea6dc3e5280b56f326b288bec"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.045691322602638,
+          1.5555801542220804,
+          1.255050647528363,
+          2.088935918076346,
+          0.3761715515509281,
+          2.0995344413514223
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.39408896764785334,
+          0.05022931897690914,
+          2.7224463366491436e-05,
+          0.11140603711749442,
+          0.4232557437288004,
+          0.020992708065576147
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_90.npy",
+      "role": "training",
+      "seed": 90,
+      "sha256": "29aac6ed9d08df523a8d793c64824eee37011c01451f1b7e14170b8a6ea62743"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.7307529198162084,
+          2.457944756214527,
+          0.8775776239223458,
+          2.5045618404427055,
+          2.7138458470515148,
+          0.8527118909395104,
+          2.6791115823415215
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.10689573573334617,
+          0.12654909759030655,
+          0.009004720715140782,
+          0.23814297542035676,
+          0.027216702946660225,
+          0.486608549261095,
+          0.005582218333094523
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_91.npy",
+      "role": "training",
+      "seed": 91,
+      "sha256": "32bb762da07da09a4130ec4e90e2cadda81a1b9f8cf9a8e6d3a22b3993ae0c0c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.22755557924508985,
+          1.0509623332114475,
+          1.0008448022908063,
+          0.11393129799898793,
+          2.5724126391768074
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.036309668852753815,
+          0.008227125404052987,
+          0.660531035871363,
+          0.057033113556066106,
+          0.23789905631576413
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_92.npy",
+      "role": "training",
+      "seed": 92,
+      "sha256": "cec194be98d3160b3900b36baaf08d80d9d7cb852013e1d9c63940ca3d4f1677"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6295344335669566,
+          1.378070485966571,
+          1.3043946732692349,
+          1.9894812041359082,
+          0.17026666171320437,
+          2.916100136183424,
+          1.3214115990750455,
+          2.292653588902569
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.02998938145717339,
+          0.12538949268138197,
+          0.02248975164095851,
+          0.20234866969547335,
+          0.22045923621404695,
+          0.044867810758151064,
+          0.011301167638804887,
+          0.34315448991400976
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_93.npy",
+      "role": "training",
+      "seed": 93,
+      "sha256": "46aa1e7a662b56cd7d5cccfd01a492147e84c034276339913956a071e4df7833"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.3660791343824124,
+          2.1661336526708417
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.0261829450599005,
+          0.9738170549400996
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_94.npy",
+      "role": "training",
+      "seed": 94,
+      "sha256": "5a631abdd355c0740feac304871bfd6662ee9f40eb72e81fa074efd97fe029aa"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.7399223996729,
+          0.6784816413323115,
+          1.141999364010803,
+          1.2310502210847398,
+          1.430264980521279
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.04430405312897385,
+          0.4806097954536223,
+          0.3229427197482178,
+          0.14861393769719225,
+          0.0035294939719936924
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_95.npy",
+      "role": "training",
+      "seed": 95,
+      "sha256": "de7d7be66b08730e72f51d10389389bcad3135eff5e1795fc02bd4a95ff0582a"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.201668809736315,
+          1.644888207225844,
+          1.4693956535296278,
+          1.59566922527272,
+          2.0547202766505004,
+          0.2780801570224183,
+          2.8837784949767125
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.2089209767420339,
+          0.04744180895367261,
+          0.22549477770555512,
+          0.018922943072798907,
+          0.0075785054535907215,
+          0.37453801115088947,
+          0.11710297692145932
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_96.npy",
+      "role": "training",
+      "seed": 96,
+      "sha256": "09c7c38122bc6e2d1f3a5334aeb13d8ef3dffbebc669d72c5ee4880069b13a32"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.2969337329925916,
+          1.5584459446154884
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.8817210392917022,
+          0.11827896070829785
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_97.npy",
+      "role": "training",
+      "seed": 97,
+      "sha256": "6519ebc663c2ab0b9c3f221527b19286357855e91fe517ed087046b9ab0956e2"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.553992751801088,
+          0.21659850784181178,
+          0.8733923492027946,
+          0.26025354070493323
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.18674296284259997,
+          0.6528582555981759,
+          0.030226947130368165,
+          0.13017183442885608
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_98.npy",
+      "role": "training",
+      "seed": 98,
+      "sha256": "e6476134f7ce2cb3010fabff47e0637b0438b68983d058945f90c287a56c8c5d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6952748953534649,
+          1.5357478790761556,
+          2.9165591164086386,
+          1.8447094259073713,
+          1.704850493683728,
+          0.860360168607396,
+          1.6635343597466898,
+          1.4025705766527075
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.015814276518792584,
+          0.3147512459337213,
+          0.029102894847925182,
+          0.04031746078611253,
+          0.02152473932102993,
+          0.03619097078940148,
+          0.040597190875623745,
+          0.5017012209273932
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_99.npy",
+      "role": "training",
+      "seed": 99,
+      "sha256": "434f2ac3fb603c20149d3a305b5875f8cd64546dcece2da1b2a9c4b748adbc66"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7896620809036619,
+          0.8665897250736108,
+          0.12885471208263422,
+          2.9209631853186426,
+          1.7894151121940651,
+          2.3707894932561637,
+          2.7310181438863586
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.14861210473668943,
+          0.07424770992492961,
+          0.23641496437412665,
+          0.0529902613334863,
+          0.07988198408985889,
+          0.23913470043124288,
+          0.16871827510966633
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/DATA_GENERATION3/data/opinion_traj_100.npy",
+      "role": "training",
+      "seed": 100,
+      "sha256": "783b14de9a67c6c40fb4d853a58e30fd3dcc79bfddf10072cf874059aaff5e00"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.04710140346099456,
+          0.563068730645789,
+          2.573670193623375,
+          0.22859590280344277,
+          0.6032707333362723,
+          1.8903029981192003,
+          0.29568640056292295,
+          0.4566132135308991
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.09187953304320913,
+          0.026133309292992932,
+          0.34028571000905306,
+          0.09740120737449497,
+          0.06614720257393578,
+          0.24362689189176828,
+          0.06639836193560783,
+          0.06812778387893802
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1001.npy",
+      "role": "validation",
+      "seed": 1001,
+      "sha256": "33d3e8e28855c9463475a3c8604cc17cf843656256c2ec63cc5fddecaab037d3"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.0715680130128409,
+          2.2428369512045734,
+          1.1684757573147346,
+          1.0113935603986102,
+          1.664683588588872,
+          0.5616552049937424
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.08207017973940131,
+          0.402783937859115,
+          0.05821890427466412,
+          0.3709140683486488,
+          0.010290105897725194,
+          0.07572280388044562
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1002.npy",
+      "role": "validation",
+      "seed": 1002,
+      "sha256": "c5a29028544cb4d309c185cf05d907707c31e9904f126c4f69ac06f6482e3afe"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7701174306564663,
+          1.484037981566554,
+          1.982374672452556,
+          2.2563385850282307
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.42953326705224426,
+          0.07502874259352964,
+          0.011432222269146081,
+          0.4840057680850801
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1003.npy",
+      "role": "validation",
+      "seed": 1003,
+      "sha256": "996008f9de3b388bbbf971fa1df4b6daef1722b8a212dd8265a4b04503824506"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.3904539363828943,
+          0.415432095895774,
+          1.1419639108417123,
+          1.8620214145739629,
+          2.511278303747955,
+          0.3764770201787193,
+          1.6814300023153264
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.05053865286550929,
+          0.5923226892094475,
+          0.04608651945158779,
+          0.13611210223467027,
+          0.011311070882032564,
+          0.09460659259416797,
+          0.06902237276258469
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1004.npy",
+      "role": "validation",
+      "seed": 1004,
+      "sha256": "00e4d7b8a72a0a416e465f3d0b040718c24d3a96c699b59f2cb5f5a211c40c2f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.7916861271658107,
+          0.8618520851033113,
+          1.9156741458614959,
+          2.5043781736322592,
+          2.930166010359121
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.13647686525719124,
+          0.17457375635156278,
+          0.33701902146380697,
+          0.03879401959794611,
+          0.3131363373294928
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1005.npy",
+      "role": "validation",
+      "seed": 1005,
+      "sha256": "e08c8efa81a4d4a84522f36d8f5d0fecd8695ba11ae63850013dbe02265dcaa8"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.8025708313989646,
+          0.8934938982275266,
+          0.7127173340867194,
+          2.399309568497218,
+          1.0051354655859464
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.1280162886840992,
+          0.11686909639226929,
+          0.3059510221354838,
+          0.1134539395827496,
+          0.33570965320539814
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1006.npy",
+      "role": "validation",
+      "seed": 1006,
+      "sha256": "a08bd5eca15202411f3ee74c950088159f64978f5b7979d4ddafd866febd3e66"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.44794103553383,
+          1.9287855387559718
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.2643999581822508,
+          0.7356000418177491
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1007.npy",
+      "role": "validation",
+      "seed": 1007,
+      "sha256": "c8fe389dd676b2d49d107e00541c777ca9bfbc2841aa9b7c5555eb12dfaee314"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.4391522431863377,
+          0.6522984876427254,
+          2.9513083636465822,
+          2.949564822429622
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.3564249944942004,
+          0.5465811333620797,
+          0.0246007179464473,
+          0.0723931541972725
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1008.npy",
+      "role": "validation",
+      "seed": 1008,
+      "sha256": "8a06b9f91081f6263678702b002b0760e48444a713b01939d7cbf341630f9add"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.9807467630185853,
+          0.14955438621959471,
+          0.8439792552789773,
+          2.477537617432257,
+          1.8269324490873797,
+          1.6869713734955039,
+          1.4938986507867158
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.00413255423220143,
+          0.017075800320754692,
+          0.08382295199517036,
+          0.03127756139656212,
+          0.34591601119978727,
+          0.0792323487486165,
+          0.4385427721069076
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1009.npy",
+      "role": "validation",
+      "seed": 1009,
+      "sha256": "3e5eb98fee6bad346234478787ee16a3c4e3198ebbc3e95307e516aa6070e84d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6074171937105308,
+          2.7530301993403823,
+          2.9443975466664094,
+          2.546458617437084,
+          2.238434567887187,
+          1.228264945011871
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.3922501786225519,
+          0.06802338361500851,
+          0.06315889079385786,
+          0.23224849550048257,
+          0.23135918093286864,
+          0.012959870535230447
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/validation/opinion_traj_1010.npy",
+      "role": "validation",
+      "seed": 1010,
+      "sha256": "7598b3dbdd579e06250dd286f2a9a25c3cfe577adbde63b6311cc25d4a0fd6ae"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.6111735428375564,
+          1.425300765652243
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.8235136954261915,
+          0.17648630457380846
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2001.npy",
+      "role": "test",
+      "seed": 2001,
+      "sha256": "154cafe9f83b865bd202ef983cb43b40d8660d16932789c56e39460445d3407c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.882133682591727,
+          1.9743378341133953,
+          0.45376948708576836,
+          2.077566037611833,
+          0.45636744246143024,
+          0.9758474432665039,
+          0.514882387484309
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.3288570281316612,
+          0.05089600852331263,
+          0.22197378352718478,
+          0.013934898637985348,
+          0.03585585992644444,
+          0.04068278111207356,
+          0.3077996401413382
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2002.npy",
+      "role": "test",
+      "seed": 2002,
+      "sha256": "b8a25733179616038d6bdc9958ff97dc4804336bd99cadae7671d4ea0dd84b3c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.643476766264496,
+          1.9540373491378715,
+          2.995243132739209,
+          2.9463818429070003,
+          0.4259334685280607,
+          0.6112136287427077,
+          0.7147705360850544
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.06997401544344295,
+          0.1371579074037757,
+          0.01247596530491247,
+          0.05766608893638037,
+          0.15563015596526003,
+          0.0724782285003419,
+          0.4946176384458865
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2003.npy",
+      "role": "test",
+      "seed": 2003,
+      "sha256": "4b37e1a6c062a9f61e73e1faac71b8e0d24990e7c4d26849b800d806109b3fc4"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.8727188369918075,
+          2.7488186218032946,
+          1.9883626217225734,
+          1.6472744501842471,
+          0.15820201160592773,
+          1.7409447923790649
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.319225697678379,
+          0.10911406784173829,
+          0.0658716775753766,
+          0.16503954746672725,
+          0.17785385782890883,
+          0.16289515160887008
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2004.npy",
+      "role": "test",
+      "seed": 2004,
+      "sha256": "f2a91ba7c96090f4aea912e6b58f194cd276e76c01edacfd11f2b0ad70a277e4"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.4516126934135756,
+          2.4152308974675885,
+          2.6917905308126384,
+          0.05036955810742072
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.25921169291627844,
+          0.4384303887951735,
+          0.30174012713179466,
+          0.0006177911567533637
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2005.npy",
+      "role": "test",
+      "seed": 2005,
+      "sha256": "79601716c0cc36cfb51489be4487e280cd0ea52c1e654bace754fff8f4b9c9b1"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6772148632231518,
+          0.907982359706913,
+          1.0745935067646877
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.25329305258431173,
+          0.6915959562106309,
+          0.055110991205057296
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2006.npy",
+      "role": "test",
+      "seed": 2006,
+      "sha256": "d0f14905a1a0456c236e85b54fa17f35d4858cb3d6cb24e991821f02737e6f09"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.4468839082487328,
+          0.6502975169153531,
+          1.9811799885877979,
+          0.8756678956398635
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.4087145359134117,
+          0.3687747930139215,
+          0.04600721658921746,
+          0.1765034544834495
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2007.npy",
+      "role": "test",
+      "seed": 2007,
+      "sha256": "7c26df4720519a41cf24580f6567c062e32c414627dd49470fb24330bf6041bc"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.057856086704406,
+          2.540484634974085,
+          0.04318120776231393,
+          0.7640314777782637,
+          2.3084889994925883,
+          1.8525873586103614
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.4399834408193235,
+          0.01671824969317591,
+          0.3239756192105094,
+          0.09128501466430639,
+          0.010933852359187184,
+          0.11710382325349768
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2008.npy",
+      "role": "test",
+      "seed": 2008,
+      "sha256": "a59529e3f179933d5b9c407a61a44e147077c492965ca1583e3dd7651978a989"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.804368871301791,
+          2.9574351288239695,
+          1.2824146953111977,
+          1.0054301333148281,
+          0.548172889142471,
+          2.0350018197712108,
+          0.8855141970759466,
+          2.170450753207703
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.014673938408972813,
+          0.13479104216949445,
+          0.0245212992020391,
+          0.23858427199146204,
+          0.1681496572261114,
+          0.3253909462305788,
+          0.07823782735726606,
+          0.015651017414075465
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2009.npy",
+      "role": "test",
+      "seed": 2009,
+      "sha256": "22ccd481459003ba7363e92a166347943eb7d685f0187d91a8462b38d1550a0f"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7529581653121682,
+          0.9633489266416373,
+          0.7223823945419743,
+          2.5717729370741536,
+          1.4948375365046127,
+          2.2542296275722613,
+          2.6019178536828154
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.19635945272790004,
+          0.12623815356798193,
+          0.04812732528898868,
+          0.12097452658723719,
+          0.23373353294560903,
+          0.26882443087518154,
+          0.005742578007101528
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2010.npy",
+      "role": "test",
+      "seed": 2010,
+      "sha256": "d8f3c3de4dc8927d17c1105f9157d206ed70426746814512fb0e235be46ca801"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7556939453041583,
+          2.0482837200665753,
+          0.7115247222978285,
+          1.9637087465012337,
+          1.1576941348693532,
+          2.0826907009833233
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.36332465872937014,
+          0.01514514333744256,
+          0.2528362598040448,
+          0.00841565178505532,
+          0.1389090916731415,
+          0.22136919467094568
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2011.npy",
+      "role": "test",
+      "seed": 2011,
+      "sha256": "01bdde3b4a84e68e8653515336af590cd30560625c51ea0bdba8c990879e1b7c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.2196705703057812,
+          1.0718808915290472,
+          0.8576355735682776,
+          2.5211480028131485,
+          2.3783016582647454,
+          1.1636601661673178,
+          1.2961079344442767,
+          0.1983453451346896
+        ],
+        "num_gaussian": 8,
+        "weights": [
+          0.10389645749035412,
+          0.0699468212573991,
+          0.13194038222237503,
+          0.23855152788701944,
+          0.054403881674186895,
+          0.20826800737020879,
+          0.18890091792739214,
+          0.004092004171064421
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2012.npy",
+      "role": "test",
+      "seed": 2012,
+      "sha256": "057c114bd90bc9c2897ee88f82f5905d32ce39bc8e16d995b74dc19e096fffed"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.7854781665121188,
+          0.5893829699854835,
+          2.820394818576617,
+          2.5144305931688136,
+          1.6540769752740039
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.21254942679933503,
+          0.4686881940142917,
+          0.07277045655647944,
+          0.22523310568972915,
+          0.02075881694016468
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2013.npy",
+      "role": "test",
+      "seed": 2013,
+      "sha256": "86786472ed52467d27bfddb2e70a734aec0c098c4dac644f6b9116b02dec53f9"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.1427521831877403,
+          0.796717690279201,
+          1.5804990782363326,
+          2.377053285367853
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.39994266565296654,
+          0.31126641167710895,
+          0.23984025944349635,
+          0.048950663226428215
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2014.npy",
+      "role": "test",
+      "seed": 2014,
+      "sha256": "954a4c4c041727291043524533dbd452537cf67ad71dd82ac87a5127b7b7d902"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.6671853685645925,
+          2.314283466412755,
+          2.901837655067909,
+          0.4883671119589996,
+          0.39058746145579937,
+          1.9243167518320643,
+          2.594673889943475
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.07831979827285895,
+          0.06347592302078299,
+          0.15720884130680834,
+          0.5801631036541656,
+          0.0050954354068211034,
+          0.09869723669819008,
+          0.017039661640373047
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2015.npy",
+      "role": "test",
+      "seed": 2015,
+      "sha256": "12efb902d08f5ee42f15ea7e5f114e2dd8f16eee4d2b74f0e873a84b44dc8e6b"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.019027641273324,
+          0.7669967566216229,
+          1.2103052355121755
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.6602856530827129,
+          0.09778982591634933,
+          0.24192452100093773
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2016.npy",
+      "role": "test",
+      "seed": 2016,
+      "sha256": "f096889821f412a6b0b18436680504d38712b6f9e9ea03daa3842570d8e43d02"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.6042923394718813,
+          2.445705154931793,
+          1.3620132129933074,
+          0.13272536987507977
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.20911559783286898,
+          0.056606179597989296,
+          0.5612803055082333,
+          0.17299791706090847
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2017.npy",
+      "role": "test",
+      "seed": 2017,
+      "sha256": "5162b720154c64d59b37db25124145a0b45ec2bc23b67010f6d8193f2d257a0d"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.537729801940261,
+          2.7318434492398116,
+          2.9758694487904562,
+          0.41651641099321246
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.08632284132473528,
+          0.4423241694817039,
+          0.34509076899365393,
+          0.12626222019990682
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2018.npy",
+      "role": "test",
+      "seed": 2018,
+      "sha256": "9b2d2d0cd0a031dbfe73eea98d5e7d52776ce260e39d6a91fd0de4d1c80362fa"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.3266407878055264,
+          1.0208775830709291,
+          2.906218259355183,
+          0.6003893844855214
+        ],
+        "num_gaussian": 4,
+        "weights": [
+          0.3425166800792282,
+          0.36300696838720414,
+          0.17089967955217802,
+          0.12357667198138968
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2019.npy",
+      "role": "test",
+      "seed": 2019,
+      "sha256": "a97903f113d39d5e6473d4409940b1bf207ff6fe87bc92395186e3fc4258b935"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.5430266934362198,
+          2.5919648441622263
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.6107596976892643,
+          0.38924030231073575
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2020.npy",
+      "role": "test",
+      "seed": 2020,
+      "sha256": "53928c874b468dda1de5d72bae4f75bc1651f5a916ee31d2ca772a362b6e8727"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.824145599383596,
+          1.7773891051741741,
+          0.9565251394096579,
+          1.87822151366105,
+          0.10654160397768153,
+          0.7563808783435834,
+          1.455040979959947
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.0951396446229757,
+          0.22799105920127155,
+          0.09972447529808155,
+          0.2399317254151412,
+          0.015520477535350605,
+          0.056367551950225775,
+          0.26532506597695366
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2021.npy",
+      "role": "test",
+      "seed": 2021,
+      "sha256": "d6cf99e3e6916abd88684274f554bb722b110374e336fb6e5a99393b04e0066c"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.2789701850264592,
+          1.8352901191835804,
+          0.1819862206022761,
+          1.9831002841694612,
+          2.265473333328892,
+          0.3326067029179167
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.02436827164799491,
+          0.3401948495410994,
+          0.236420856796535,
+          0.07124476057229898,
+          0.2559304394784165,
+          0.0718408219636553
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2022.npy",
+      "role": "test",
+      "seed": 2022,
+      "sha256": "dd82ed09e603966964f9de86378f7181099c7a01514e87031224743d55752324"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.6613201330117925,
+          0.3395116626971606,
+          1.3289005043448607,
+          2.0919942648070524,
+          1.6385464354389558
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.22144914781904926,
+          0.3960071897098924,
+          0.2752735162530635,
+          0.04283844456754404,
+          0.064431701650451
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2023.npy",
+      "role": "test",
+      "seed": 2023,
+      "sha256": "39d5548f9d945f7d1ef643ffc8f2eb469728c533a31a72283310bf8a39e84ab2"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.642969603714773,
+          0.9283560926450751,
+          2.3983982903244994
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.7558245433330176,
+          0.07583994871053246,
+          0.16833550795644978
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2024.npy",
+      "role": "test",
+      "seed": 2024,
+      "sha256": "73d61ace101fe447ae3d4b3cf611fe97cba30bd634e5559e32f9f8decef95896"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.146029222751443,
+          2.4814440384182994,
+          2.5117658285699687,
+          2.927427030470871,
+          0.23167508657990488
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.25511072342335817,
+          0.17004822822515936,
+          0.24453603444129854,
+          0.15199169281245978,
+          0.17831332109772402
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2025.npy",
+      "role": "test",
+      "seed": 2025,
+      "sha256": "418eef3e5fba14e262cc7100869d445b64bafcd1e3a3c2ba02022c02b2de15a8"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.9197394971454638,
+          1.4018052034304553,
+          1.111501581324144,
+          1.0647520029289537,
+          2.371554737559795,
+          2.7154315100315216,
+          0.532059575469146
+        ],
+        "num_gaussian": 7,
+        "weights": [
+          0.11389624692272865,
+          0.07927634632813865,
+          0.21099585701951692,
+          0.3474915720843763,
+          0.1714748186126081,
+          0.055979383352276806,
+          0.020885775680354476
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2026.npy",
+      "role": "test",
+      "seed": 2026,
+      "sha256": "7d2d042fa34450cfc7c8471e64629de1fe8ed7986164d8b64705ddef67b441f0"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.1576476526552542,
+          0.24756184682591031,
+          1.4937047572882856,
+          1.3462369003692738,
+          2.1162850302759866,
+          0.8933654616014847
+        ],
+        "num_gaussian": 6,
+        "weights": [
+          0.28114576132608365,
+          0.161841622636356,
+          0.02698993513260898,
+          0.0025378097080713713,
+          0.09366188694334239,
+          0.43382298425353755
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2027.npy",
+      "role": "test",
+      "seed": 2027,
+      "sha256": "ee309ddef903e8d1308f3c896eb00bd612e4e7252a106154f1aca443be9e0405"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          1.7776701718268058,
+          2.211990819243866,
+          2.9547786847700714,
+          2.5267368228845113,
+          1.1987414767336424
+        ],
+        "num_gaussian": 5,
+        "weights": [
+          0.5882529215259604,
+          0.27557741685870846,
+          0.13213451072142518,
+          0.00318352779056228,
+          0.0008516231033435306
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2028.npy",
+      "role": "test",
+      "seed": 2028,
+      "sha256": "05f4da0876cfdd63652ea3011329d3f63dca00cb8abc2d25deb0426cd07a36f5"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          0.11523575867336966,
+          1.2491094866043477,
+          2.243545550478834
+        ],
+        "num_gaussian": 3,
+        "weights": [
+          0.9062449262903427,
+          0.048903274801771826,
+          0.04485179890788544
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2029.npy",
+      "role": "test",
+      "seed": 2029,
+      "sha256": "e42f308b9935f27c1484ac6481b22adfe3954fe7a6b7315908977726837d6b4e"
+    },
+    {
+      "initial_condition": {
+        "component_std": 0.5,
+        "mean_centered": true,
+        "means": [
+          2.4182382643181155,
+          2.5099304756404575
+        ],
+        "num_gaussian": 2,
+        "weights": [
+          0.843336032235789,
+          0.1566639677642109
+        ]
+      },
+      "path": "/mnt/ufs18/rs/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/revision/experiments/r1c1_threebody_global_mean/outputs/mtcurve/data/test/opinion_traj_2030.npy",
+      "role": "test",
+      "seed": 2030,
+      "sha256": "116a7ec772d32f9bd916b86d79c556a589b0ca455e432a592d1ca408adeaf49e"
+    }
+  ]
+}

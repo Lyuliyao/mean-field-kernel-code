@@ -1,0 +1,13 @@
+# JAX 0.5.3 has no macOS Intel jaxlib wheel. Use the available CPU release.
+numpy==1.26.4
+scipy==1.15.2
+pandas==2.2.3
+matplotlib==3.10.1
+PyYAML==6.0.2
+jax==0.4.38
+jaxlib==0.4.38
+flax==0.10.4
+optax==0.2.4
+chex==0.1.89
+orbax-checkpoint==0.11.5
+pytest==8.3.5

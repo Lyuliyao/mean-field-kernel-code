@@ -1,0 +1,72 @@
+{
+  "preprocessing_seconds_train_densities": 0.7086197836324573,
+  "hardware": {
+    "wsindy_fits_and_rollouts": "CPU (SLURM, 16 cores fits / 8 cores rollouts)",
+    "mvnn_training": "single NVIDIA A100 GPU"
+  },
+  "local_selected_fit_seconds": 23.576451477594674,
+  "local_selection_total_seconds": 611.2140138857067,
+  "kernel_selected_fit_seconds": 23.467688331380486,
+  "kernel_selection_total_seconds": 245.7953727375716,
+  "mvnn_seed0": {
+    "best_step": 11000,
+    "last_step": 12000,
+    "early_stopped": false,
+    "wall_time_seconds": 21.2528984984383,
+    "compile_seconds": 1.4151693750172853,
+    "gpu": {
+      "gpu_utilization_mean": 44.25,
+      "gpu_utilization_max": 47.0,
+      "gpu_memory_max_mib": 2655.0
+    },
+    "peak_device_bytes_in_use": 1926316544
+  },
+  "mvnn_seed1": {
+    "best_step": 4000,
+    "last_step": 9000,
+    "early_stopped": true,
+    "wall_time_seconds": 16.733665260951966,
+    "compile_seconds": 1.3831054507754743,
+    "gpu": {
+      "gpu_utilization_mean": 44.666666666666664,
+      "gpu_utilization_max": 46.0,
+      "gpu_memory_max_mib": 2655.0
+    },
+    "peak_device_bytes_in_use": 1926316544
+  },
+  "mvnn_seed2": {
+    "best_step": 3000,
+    "last_step": 8000,
+    "early_stopped": true,
+    "wall_time_seconds": 14.58891098992899,
+    "compile_seconds": 1.4080308452248573,
+    "gpu": {
+      "gpu_utilization_mean": 46.0,
+      "gpu_utilization_max": 47.0,
+      "gpu_memory_max_mib": 2655.0
+    },
+    "peak_device_bytes_in_use": 1926316544
+  },
+  "mean_rollout_seconds_per_trajectory": {
+    "kernel_wsindy": {
+      "rollout_seconds": 0.3268419241067022,
+      "preprocessing_seconds": 0.0016738205320305293
+    },
+    "local_wsindy": {
+      "rollout_seconds": 0.36547789559699595,
+      "preprocessing_seconds": 0.0016439274574319522
+    },
+    "mvnn_seed0": {
+      "rollout_seconds": 0.43198260144951445,
+      "preprocessing_seconds": 0.003324953114820851
+    },
+    "mvnn_seed1": {
+      "rollout_seconds": 0.430661879816196,
+      "preprocessing_seconds": 0.0033900399381915727
+    },
+    "mvnn_seed2": {
+      "rollout_seconds": 0.4177636151822905,
+      "preprocessing_seconds": 0.003363104692349831
+    }
+  }
+}

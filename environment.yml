@@ -1,0 +1,23 @@
+name: r1c1-multigroup
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.16
+  - pip=25.0.1
+  - setuptools=75.8.2
+  - wheel=0.45.1
+  - pip:
+      - "jax[cuda12]==0.5.3"
+      - jaxlib==0.5.3
+      - flax==0.10.4
+      - optax==0.2.4
+      - chex==0.1.89
+      - numpy==1.26.4
+      - scipy==1.15.2
+      - pandas==2.2.3
+      - matplotlib==3.10.1
+      - psutil==5.9.5
+      - PyYAML==6.0.2
+      - pytest==8.3.5
+      - pytest-cov==6.0.0
+

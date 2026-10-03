@@ -1,0 +1,32 @@
+{
+  "test_independent_of_training_pool": {
+    "seed_overlap": [],
+    "content_overlap": [],
+    "passed": true
+  },
+  "no_test_trajectory_in_early_stopping": {
+    "explanation": "early stopping reads only mtcurve.data.VALIDATION_SEEDS (1001-1010); test seeds 2001-2030 are loaded exclusively inside the final rollout evaluation",
+    "static_check_training_module_reads_test_only_in_eval": true,
+    "passed": true
+  },
+  "test_set_identical_for_every_M": {
+    "distinct_test_manifests_across_21_models": 1,
+    "matches_data_manifest": true,
+    "passed": true
+  },
+  "identical_rollout_protocol_for_training_and_test": {
+    "distinct_protocol_fingerprints": 1,
+    "passed": true
+  },
+  "no_test_based_hyperparameter_or_stopping_choices": {
+    "explanation": "all hyperparameters, budgets, and the early-stopping rule were fixed in protocol_mtcurve.yaml and committed before any model run; stopping uses the validation loss only",
+    "passed": true
+  },
+  "all_30_test_trajectories_in_statistics": {
+    "min_test_trajectories_per_model": 30,
+    "models_with_30": 21,
+    "expected_models": 21,
+    "passed": true
+  },
+  "all_passed": true
+}

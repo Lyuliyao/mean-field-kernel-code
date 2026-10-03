@@ -1,0 +1,51 @@
+{
+  "model_seed": 0,
+  "model_config": {
+    "dimension": 1,
+    "embedding_hidden": [
+      32,
+      32
+    ],
+    "embedding_out": 8,
+    "interaction_hidden": [
+      64,
+      64
+    ],
+    "dtype": "float64"
+  },
+  "learning_rate": 0.001,
+  "gradient_clip_global_norm": 1.0,
+  "batch_frames": 32,
+  "max_steps": 12000,
+  "last_step": 12000,
+  "best_step": 11000,
+  "best_rollout_w1": 0.004424621604040894,
+  "early_stopped": false,
+  "onestep_every": 250,
+  "rollout_every": 1000,
+  "early_stop_patience": 5,
+  "early_stop_min_relative": 0.005,
+  "timings": {
+    "wall_time_seconds": 21.2528984984383,
+    "first_step_time_seconds_includes_compile": 1.4151693750172853,
+    "first_rollout_eval_seconds_includes_compile": 1.0161207597702742,
+    "training_time_seconds_excluding_first_step": 19.837729123421013
+  },
+  "gpu": {
+    "gpu_utilization_mean": 44.25,
+    "gpu_utilization_max": 47.0,
+    "gpu_memory_max_mib": 2655.0
+  },
+  "peak_device_bytes_in_use": 1926316544,
+  "jax_backend": "gpu",
+  "jax_devices": [
+    "cuda:0"
+  ],
+  "checkpoints": [
+    "best_params.msgpack",
+    "last_params.msgpack"
+  ],
+  "stage": "final",
+  "tag": null,
+  "bandwidth": 0.05
+}

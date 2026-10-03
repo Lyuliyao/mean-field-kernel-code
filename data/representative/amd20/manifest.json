@@ -1,0 +1,906 @@
+[
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/TEST_DATA3/data/opinion_traj_1.npy",
+    "dest": "CASE5/seed1_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "92c7f021844e7b32356070a151afeace16af8654b0c30796c7c0248381c907fd",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/SIM3/data/x_save_1.npy",
+    "dest": "CASE5/seed1_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "7f30746b60e70674bcf97aed020613391cb95c1f56abc919f1d1100c78599db0",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/TEST_DATA3/data/opinion_traj_2.npy",
+    "dest": "CASE5/seed2_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "31eb71b35d2206c881f90c81662f4a3fc592383a6ac204b14a0f32d2ba23fa72",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/SIM3/data/x_save_2.npy",
+    "dest": "CASE5/seed2_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "c36c5ae3460bfd8189a48505999b23b8b63072c8c16ec5886096777ad33168e4",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/TEST_DATA3/data/opinion_traj_3.npy",
+    "dest": "CASE5/seed3_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "29613bfe62bc98b53b35f21631378a67b26ce9d2c4e93f761666f98767da9fe5",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5/SIM3/data/x_save_3.npy",
+    "dest": "CASE5/seed3_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "5ea91a7873e5ed368f0b40055f753032b0495b1166894154c7caeb99be856b57",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/TEST_DATA3/data/opinion_traj_1.npy",
+    "dest": "CASE5_stochastic/seed1_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "b0582bba3ee556252d0a4da0a51a9f06f3bf5adf2a749682875d532271955598",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/SIM3/data/x_save_1.npy",
+    "dest": "CASE5_stochastic/seed1_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "7cb26a504a58f44697deafa1d0c569d381eeb06f9523e3d7469e78ba9e6ec520",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/TEST_DATA3/data/opinion_traj_2.npy",
+    "dest": "CASE5_stochastic/seed2_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "48b032ba2a7bb5ac249e467b0075d44172aec58ede7797ecab8b0a19e512af1f",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/SIM3/data/x_save_2.npy",
+    "dest": "CASE5_stochastic/seed2_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "c7ff6595743c26f4d534db8c7b71251d557ae542674561c625e44d0d527dd91b",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/TEST_DATA3/data/opinion_traj_3.npy",
+    "dest": "CASE5_stochastic/seed3_reference.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "4d6dc6958288864bc4aab23c031b0a4d9bd4170a6879535ff43317170dc1272a",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE5_stochastic/SIM3/data/x_save_3.npy",
+    "dest": "CASE5_stochastic/seed3_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      200
+    ],
+    "particles": 16000,
+    "source_shape": [
+      401,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51328128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "aff8e9faab29e7a3079c6f32f955dc481ec6e364fa7cf583d46d1303149ff586",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/TEST_DATA/data/simulation_1.npy",
+    "dest": "CASE4/case1_reference.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "dfe36d29520e81ddbeb49fbc471ba3843c35e2fbed48e0d85009e657a1306ff2",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/SIM/data/x_save_1.npy",
+    "dest": "CASE4/case1_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51456128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "17102b3d886639b2fbc3d70c646e823fe2acafa14243925be4745e03f5a19485",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/TEST_DATA2/data/simulation_1.npy",
+    "dest": "CASE4/case2_reference.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "f5bc36bf131b305d97a2167360560d678e6b0e058c184497cafee30f299aab19",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/SIM2/data/x_save_1.npy",
+    "dest": "CASE4/case2_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51456128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "514e927ad1adc810507d1a8fc8396429ca26912524a0b9fd7b7921469eaff298",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/TEST_DATA3/data/simulation_1.npy",
+    "dest": "CASE4/case3_reference.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "47fecc2ec7e5ff198d118fbffbf446a9a2a3eb25048ed8d889f8590576e42287",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/SIM3/data/x_save_1.npy",
+    "dest": "CASE4/case3_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      16000,
+      2
+    ],
+    "source_dtype": "<f4",
+    "source_bytes": 25728128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "bfd7d12a2433e1efe4c530c974fd5c5b2721e92d3cdba078f91c701ad52e98e1",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/TEST_DATA4/data/simulation_1.npy",
+    "dest": "CASE4/case4_reference.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      200,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51200128,
+    "selected_frames": [
+      0,
+      100,
+      199
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "780270e1d99001240b6d071002e9f57efe52103f22555a5c4c0b597a933bdefe",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE4/SIM4/data/x_save_1.npy",
+    "dest": "CASE4/case4_mvnn.npy",
+    "frames": [
+      0,
+      100,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      201,
+      16000,
+      2
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 51456128,
+    "selected_frames": [
+      0,
+      100,
+      200
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      2
+    ],
+    "sha256": "1d9763b96e1d4cbeffe3668675b4d6cd41f0bec766fd105ddce0e032841d2b81",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_workers_mpi_1.npy",
+    "dest": "CASE7/seed1_reference_workers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      501,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 64128128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "ff144dbc608ef38f31d017014aa8ff2d8ef2f1940050dbfff11dd133b12904d9",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_managers_mpi_1.npy",
+    "dest": "CASE7/seed1_reference_managers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 4000,
+    "source_shape": [
+      501,
+      4000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 16032128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      4000
+    ],
+    "sha256": "d1bacf4f5a63da3e46663bedb33fd9215d55f315cbb505daec907195d4d08cb0",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_ceos_mpi_1.npy",
+    "dest": "CASE7/seed1_reference_ceos.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 200,
+    "source_shape": [
+      501,
+      200
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 801728,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      200
+    ],
+    "sha256": "2abd56e3bedab2ad3636c3210f30437dbc9533b49ae030efd6ed01903ff97714",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_workers_mpi_1.npy",
+    "dest": "CASE7/seed1_mvnn_workers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      501,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 64128128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "706b197d761dd0d0954e9e86eaf8171dbf1e26a92e6d5d4f152df86cf6ab9e92",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_managers_mpi_1.npy",
+    "dest": "CASE7/seed1_mvnn_managers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 4000,
+    "source_shape": [
+      501,
+      4000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 16032128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      4000,
+      1
+    ],
+    "sha256": "20f46716841bbb9084184926c2b83e7ed79d3d75d209e4bd6ad4ec4ddbf62c7e",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_ceos_mpi_1.npy",
+    "dest": "CASE7/seed1_mvnn_ceos.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 200,
+    "source_shape": [
+      501,
+      200,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 801728,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      200,
+      1
+    ],
+    "sha256": "eff99e3cb35fad50f82edb0d2ca79297afe34c4d3761fbe97c5d6f2e1399bdc3",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_workers_mpi_2.npy",
+    "dest": "CASE7/seed2_reference_workers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      501,
+      16000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 64128128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      16000
+    ],
+    "sha256": "d1ec303e59d3ae4c50c2e1a06223574c063ef7161dbaf40813645821598c2f7a",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_managers_mpi_2.npy",
+    "dest": "CASE7/seed2_reference_managers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 4000,
+    "source_shape": [
+      501,
+      4000
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 16032128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      4000
+    ],
+    "sha256": "23401b613c7f159c617dedf037205d775a88db4fb38c174315c3fc41e3ad5edc",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/TEST_CASE4/data/opinion_ceos_mpi_2.npy",
+    "dest": "CASE7/seed2_reference_ceos.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 200,
+    "source_shape": [
+      501,
+      200
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 801728,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      200
+    ],
+    "sha256": "b1a1c2bafee77e8cfa7c8812be2acb63994659e18d7b42938dcc3a03e436639d",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_workers_mpi_2.npy",
+    "dest": "CASE7/seed2_mvnn_workers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 16000,
+    "source_shape": [
+      501,
+      16000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 64128128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      16000,
+      1
+    ],
+    "sha256": "f9c24c9a6f61ca62a7d58bacbffd4627dd8ddb2aaccbb8abcaa10b14f6b42259",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_managers_mpi_2.npy",
+    "dest": "CASE7/seed2_mvnn_managers.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 4000,
+    "source_shape": [
+      501,
+      4000,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 16032128,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      4000,
+      1
+    ],
+    "sha256": "7a547397d8060c1720403701412358a0bc16388921e063a7b5fb0e2d67c65ae8",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  },
+  {
+    "source": "/mnt/research/MultiscaleML_group/Liyao/MEAN_FIELD_KERNEL/SIMPLE/CASE7_opinion_dynamics/SIM3_4/data/opinion_ceos_mpi_2.npy",
+    "dest": "CASE7/seed2_mvnn_ceos.npy",
+    "frames": [
+      0,
+      250,
+      -1
+    ],
+    "particles": 200,
+    "source_shape": [
+      501,
+      200,
+      1
+    ],
+    "source_dtype": "<f8",
+    "source_bytes": 801728,
+    "selected_frames": [
+      0,
+      250,
+      500
+    ],
+    "selected_shape": [
+      3,
+      200,
+      1
+    ],
+    "sha256": "8c2cda0a418410f418ba9c0d59e5693646bc4163ff3f906b36261056692a37c2",
+    "selection": "first contiguous particles; no rounding or dtype conversion"
+  }
+]

@@ -1,0 +1,1418 @@
+{
+  "data_seed_base": 30260711,
+  "particles": 1024,
+  "schema_version": 1,
+  "stage": "final",
+  "triplets": [
+    {
+      "family": {
+        "c_eff": 0.41015625,
+        "c_nominal": 0.4074687111715335,
+        "d": 1.1410154393901446,
+        "m0": 0.0,
+        "n_central": 420,
+        "n_particles": 1024,
+        "r_minus": -2.24994774154547,
+        "r_plus": 1.618925801287338,
+        "sample_seed": 1994844695,
+        "triplet_id": 0,
+        "width": 0.10404529549117048,
+        "window_half_width": 0.45,
+        "x_c": 0.45373482370941876
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3450074913,
+          "initial_mean": -1.1410154393901446,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.5457856402850828,
+          "min_state": -2.3341730088821526,
+          "path": "triplet_000_minus.npy",
+          "sha256": "84c6c8f8bf8804109f0f3eb183a1f1225e57e83ee8040da903a1f10c76940dd9"
+        },
+        "mixed": {
+          "brownian_seed": 3634257322,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9408456855526846,
+          "min_state": -2.3346227746796924,
+          "path": "triplet_000_mixed.npy",
+          "sha256": "9b61a66e5977d2711fe0597c58f170511822c5fa9dad6d46e7b3a01f1d17c586"
+        },
+        "plus": {
+          "brownian_seed": 1655560260,
+          "initial_mean": 1.1410154393901446,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7092041170863406,
+          "min_state": 0.35295404804635744,
+          "path": "triplet_000_plus.npy",
+          "sha256": "4cdca0cfb2da8e4bcfcbd8e30248779cc8fdf4655ccd3a881f3bf38b29d443c4"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.43359375,
+        "c_nominal": 0.4329578077251961,
+        "d": 1.2758137849077578,
+        "m0": 0.0,
+        "n_central": 444,
+        "n_particles": 1024,
+        "r_minus": -2.841014353582972,
+        "r_plus": 1.6639281145051106,
+        "sample_seed": 1637523634,
+        "triplet_id": 1,
+        "width": 0.08278046167986601,
+        "window_half_width": 0.44755526295910963,
+        "x_c": 0.7688175885868913
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 341240129,
+          "initial_mean": -1.275813784907758,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8424437100244162,
+          "min_state": -2.909074490629408,
+          "path": "triplet_001_minus.npy",
+          "sha256": "d7b01f031819952b163e3cfa1c2b08ecc766f6fd2f0b0fcdf0bf9e1924c02bdc"
+        },
+        "mixed": {
+          "brownian_seed": 1412284392,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8931892259653837,
+          "min_state": -2.909074490629408,
+          "path": "triplet_001_mixed.npy",
+          "sha256": "e64ff2f48c1bd21ec4b8419fca305e8868bf0125335ae45e77850dc273662d13"
+        },
+        "plus": {
+          "brownian_seed": 3319454856,
+          "initial_mean": 1.2758137849077578,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7318638934820534,
+          "min_state": 0.599256569834622,
+          "path": "triplet_001_plus.npy",
+          "sha256": "df6032bb952341685e5dbc051c7d70b195ab7846d44804fa12f1cda0b9321828"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.3671875,
+        "c_nominal": 0.36701423070731,
+        "d": 1.0378170458356428,
+        "m0": 0.0,
+        "n_central": 376,
+        "n_particles": 1024,
+        "r_minus": -2.03446842078508,
+        "r_plus": 1.2455459463004084,
+        "sample_seed": 28130050,
+        "triplet_id": 2,
+        "width": 0.13383235092072016,
+        "window_half_width": 0.28286488573925517,
+        "x_c": 0.679816174821898
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3496172707,
+          "initial_mean": -1.0378170458356428,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.7877328088947597,
+          "min_state": -2.1467707552156794,
+          "path": "triplet_002_minus.npy",
+          "sha256": "6861c3a5ebc305d04e2531615255d1d960f6e76c9d7328d3f9672b723c1128ea"
+        },
+        "mixed": {
+          "brownian_seed": 2373342050,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7877857591579829,
+          "min_state": -2.1467707552156794,
+          "path": "triplet_002_mixed.npy",
+          "sha256": "0caf0ebdb8c1cd373e3647fbe83b5a494bc01ca2264fe33ec13cfde58b7223ab"
+        },
+        "plus": {
+          "brownian_seed": 1938657747,
+          "initial_mean": 1.0378170458356428,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.35865191335393,
+          "min_state": 0.5441160495088201,
+          "path": "triplet_002_plus.npy",
+          "sha256": "7dcbf7604483acbc0beb4ed9eccc7988d5f363d3dbf79e0c79e2c9389be563ca"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.44140625,
+        "c_nominal": 0.4396091972744135,
+        "d": 1.18184951930666,
+        "m0": 0.0,
+        "n_central": 452,
+        "n_particles": 1024,
+        "r_minus": -2.7392636504866146,
+        "r_plus": 1.49225350954842,
+        "sample_seed": 574961079,
+        "triplet_id": 3,
+        "width": 0.09287298731364621,
+        "window_half_width": 0.3516080597428784,
+        "x_c": 0.7890373900626632
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3449519699,
+          "initial_mean": -1.18184951930666,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8676149339351028,
+          "min_state": -2.815776164600611,
+          "path": "triplet_003_minus.npy",
+          "sha256": "c1b112cbe216a26751c6fcacc5bbc37a49649f9370bdaf4589533077edc0bf4d"
+        },
+        "mixed": {
+          "brownian_seed": 978659418,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8219132871428192,
+          "min_state": -2.815776164600611,
+          "path": "triplet_003_mixed.npy",
+          "sha256": "c90893592105a0ad53003d95f08038d1469ff2cdfb74de65faf9055f6350149c"
+        },
+        "plus": {
+          "brownian_seed": 502329202,
+          "initial_mean": 1.1818495193066603,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.5698200631355015,
+          "min_state": 0.6415130336272643,
+          "path": "triplet_003_plus.npy",
+          "sha256": "6a303fae168674fd2c94a2509e81fe7fcfd12523790c0f369faa7f9d9f995069"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.375,
+        "c_nominal": 0.3733449142780399,
+        "d": 1.0353936129311736,
+        "m0": 0.0,
+        "n_central": 384,
+        "n_particles": 1024,
+        "r_minus": -2.1083415978793028,
+        "r_plus": 1.2049179635004525,
+        "sample_seed": 2400818500,
+        "triplet_id": 4,
+        "width": 0.08285451954156076,
+        "window_half_width": 0.22603246742570532,
+        "x_c": 0.7528530286490419
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3294323878,
+          "initial_mean": -1.0353936129311736,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8206787957667845,
+          "min_state": -2.1821352251621193,
+          "path": "triplet_004_minus.npy",
+          "sha256": "2413c4536306eac2fdf52bc73acaac8af1f086d92d5d5a8997032b9245d0f3f1"
+        },
+        "mixed": {
+          "brownian_seed": 3793291476,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7551897796479465,
+          "min_state": -2.1821352251621193,
+          "path": "triplet_004_mixed.npy",
+          "sha256": "2d7c5b681d0c12834890ad0e183d98afd0708eabb153dc70b10ef7e6d4b2b22d"
+        },
+        "plus": {
+          "brownian_seed": 3519425120,
+          "initial_mean": 1.0353936129311736,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.2789635468846126,
+          "min_state": 0.6595302317526255,
+          "path": "triplet_004_plus.npy",
+          "sha256": "c32610e9bf82ebe56edeb3b8a79d6629b261add24413fcbd39ebfaf4d0181259"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.41015625,
+        "c_nominal": 0.40794102062795606,
+        "d": 1.1093119015475383,
+        "m0": 0.0,
+        "n_central": 420,
+        "n_particles": 1024,
+        "r_minus": -2.4061554686279036,
+        "r_plus": 1.3552199856260012,
+        "sample_seed": 1432862085,
+        "triplet_id": 5,
+        "width": 0.08396839134748604,
+        "window_half_width": 0.2997736644004118,
+        "x_c": 0.7556726568251776
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1835223632,
+          "initial_mean": -1.1093119015475383,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8313855259695324,
+          "min_state": -2.4748659150571117,
+          "path": "triplet_005_minus.npy",
+          "sha256": "bf5e7f38bf134db0434ae3b7993710924a0b6b6190eadf91353b2634addfef0f"
+        },
+        "mixed": {
+          "brownian_seed": 597167619,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.782279416095131,
+          "min_state": -2.4748659150571117,
+          "path": "triplet_005_mixed.npy",
+          "sha256": "40b4da59f5278814667c1d71791951446f13d85b723ce57c614b8630bb6cf5c7"
+        },
+        "plus": {
+          "brownian_seed": 1128702699,
+          "initial_mean": 1.1093119015475383,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4298980130238752,
+          "min_state": 0.6457141192796713,
+          "path": "triplet_005_plus.npy",
+          "sha256": "6ade8d23dbc9f3cf8a649181d91016fe89616f23c19024b7051b307ea2462d72"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.4296875,
+        "c_nominal": 0.4271584676056846,
+        "d": 0.9594028259003606,
+        "m0": 0.0,
+        "n_central": 440,
+        "n_particles": 1024,
+        "r_minus": -2.1650814723646974,
+        "r_plus": 1.199399670518759,
+        "sample_seed": 1924419707,
+        "triplet_id": 6,
+        "width": 0.10114940397705736,
+        "window_half_width": 0.2792690555559545,
+        "x_c": 0.6408615594068501
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1998063212,
+          "initial_mean": -0.9594028259003607,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.732640279419094,
+          "min_state": -2.244828515685755,
+          "path": "triplet_006_minus.npy",
+          "sha256": "521bb27021aff122386706f2d5d58d82fef945781688d0575d09ba522806d7e5"
+        },
+        "mixed": {
+          "brownian_seed": 3029630796,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7379941503980743,
+          "min_state": -2.244828515685755,
+          "path": "triplet_006_mixed.npy",
+          "sha256": "e9ad374c91c948c98a9af40cd448960ec316839bee098fb9c44c53686171e6a5"
+        },
+        "plus": {
+          "brownian_seed": 400997355,
+          "initial_mean": 0.9594028259003606,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.2909596494513147,
+          "min_state": 0.5394820084276112,
+          "path": "triplet_006_plus.npy",
+          "sha256": "405217316a8fc2330ddbc3d8cb84cef68066ab837b19cd72cf6a053829dbf2e3"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.39453125,
+        "c_nominal": 0.3924695640095539,
+        "d": 1.1569316622241876,
+        "m0": 0.0,
+        "n_central": 404,
+        "n_particles": 1024,
+        "r_minus": -2.408427512580653,
+        "r_plus": 1.4131790103792445,
+        "sample_seed": 3147588311,
+        "triplet_id": 7,
+        "width": 0.09755586450797982,
+        "window_half_width": 0.3247491144935374,
+        "x_c": 0.7636807813921698
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3413304527,
+          "initial_mean": -1.1569316622241879,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8439770276692237,
+          "min_state": -2.492262785808489,
+          "path": "triplet_007_minus.npy",
+          "sha256": "0be3b12d072f6b1d31914d8369c1b0092f3eb2d485b5cff2308a5e6cbb171e59"
+        },
+        "mixed": {
+          "brownian_seed": 1925549279,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8189059962623608,
+          "min_state": -2.492262785808489,
+          "path": "triplet_007_mixed.npy",
+          "sha256": "85ce834bdd76804de40de570cb7e63cf5f3325a3acd6924413baabf921d2f8b6"
+        },
+        "plus": {
+          "brownian_seed": 1284624248,
+          "initial_mean": 1.1569316622241876,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4978080758855834,
+          "min_state": 0.6207621398719187,
+          "path": "triplet_007_plus.npy",
+          "sha256": "a854bc068873f261dbc9226143d569382f02e98e172e749a4f8f1674ceab8a35"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.4375,
+        "c_nominal": 0.43515500316385003,
+        "d": 1.0917996766024438,
+        "m0": 0.0,
+        "n_central": 448,
+        "n_particles": 1024,
+        "r_minus": -2.537150267523257,
+        "r_plus": 1.3448041381743212,
+        "sample_seed": 2149566139,
+        "triplet_id": 8,
+        "width": 0.09031962153039058,
+        "window_half_width": 0.2891479560821456,
+        "x_c": 0.76650822601003
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3624744235,
+          "initial_mean": -1.0917996766024438,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8447290229421107,
+          "min_state": -2.614336198463647,
+          "path": "triplet_008_minus.npy",
+          "sha256": "55786d65d498e75908b79743b6b8d0cc997e6a41a07b84156d6f8589002082ec"
+        },
+        "mixed": {
+          "brownian_seed": 1602610757,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.782914583604856,
+          "min_state": -2.614336198463647,
+          "path": "triplet_008_mixed.npy",
+          "sha256": "ceed0a712a2ee8bb3d4e0b996dcdeee69a820c6fa125a055587d4be78a83c33f"
+        },
+        "plus": {
+          "brownian_seed": 2453715858,
+          "initial_mean": 1.0917996766024438,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.41526765592317,
+          "min_state": 0.6487996426258142,
+          "path": "triplet_008_plus.npy",
+          "sha256": "338571ac8498821a09a7186b0e43c0a5c4aa8098ca9975d0d6750c6fb4848ab4"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.43359375,
+        "c_nominal": 0.4306942738845531,
+        "d": 1.0191429213651648,
+        "m0": 0.0,
+        "n_central": 444,
+        "n_particles": 1024,
+        "r_minus": -2.328414258902834,
+        "r_plus": 1.2702145392969206,
+        "sample_seed": 443376082,
+        "triplet_id": 9,
+        "width": 0.14343916464243256,
+        "window_half_width": 0.28952402788526804,
+        "x_c": 0.6911664835263845
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 63654726,
+          "initial_mean": -1.0191429213651648,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8095844128154128,
+          "min_state": -2.4490532699978558,
+          "path": "triplet_009_minus.npy",
+          "sha256": "30d2d6e1a08a94f3269e7c1997761bfb5b07aceda5b1a0073d55313d00c94b8c"
+        },
+        "mixed": {
+          "brownian_seed": 1007571635,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7796532302546952,
+          "min_state": -2.4490532699978558,
+          "path": "triplet_009_mixed.npy",
+          "sha256": "8b38257817b4df7c1d8f328555710832aa89a19744936b515431c442950c3680"
+        },
+        "plus": {
+          "brownian_seed": 2996912411,
+          "initial_mean": 1.0191429213651648,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.3779923250801493,
+          "min_state": 0.5513364979393486,
+          "path": "triplet_009_plus.npy",
+          "sha256": "3b799513aee98a18e47fd391d2cec1d47474fa815b589a452d057b816ca08ef9"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.4375,
+        "c_nominal": 0.4377122075909916,
+        "d": 1.2571620326705637,
+        "m0": 0.0,
+        "n_central": 448,
+        "n_particles": 1024,
+        "r_minus": -2.821505313912544,
+        "r_plus": 1.6484041355827936,
+        "sample_seed": 3899293788,
+        "triplet_id": 10,
+        "width": 0.10578680698848464,
+        "window_half_width": 0.44713383189969147,
+        "x_c": 0.7541364717834107
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2325489416,
+          "initial_mean": -1.2571620326705637,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.845603009594896,
+          "min_state": -2.914495391010737,
+          "path": "triplet_010_minus.npy",
+          "sha256": "cf0143dc499cc2120b8e69ecd76fbf79492b5f110403ac93dbbd0152e9940a63"
+        },
+        "mixed": {
+          "brownian_seed": 4209722479,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.883178559944914,
+          "min_state": -2.914495391010737,
+          "path": "triplet_010_mixed.npy",
+          "sha256": "77e63fc494aeb5a323246a892f1c3b2d5378f3d76e1ac6db6e7f6916322a5bcd"
+        },
+        "plus": {
+          "brownian_seed": 2132445276,
+          "initial_mean": 1.2571620326705637,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7380249812006878,
+          "min_state": 0.5787141949035003,
+          "path": "triplet_010_plus.npy",
+          "sha256": "ec361614e0b386b066c4de8299f6dbc0cf8c3a7df3916adc1e6728bc6b5ce49b"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.39453125,
+        "c_nominal": 0.39433617878171323,
+        "d": 1.129470001367612,
+        "m0": 0.0,
+        "n_central": 404,
+        "n_particles": 1024,
+        "r_minus": -2.1784996389167626,
+        "r_plus": 1.552394817213672,
+        "sample_seed": 2681418711,
+        "triplet_id": 11,
+        "width": 0.14793488427796161,
+        "window_half_width": 0.45,
+        "x_c": 0.4804269671484111
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2364330104,
+          "initial_mean": -1.129470001367612,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6027503801078873,
+          "min_state": -2.3070040749748277,
+          "path": "triplet_011_minus.npy",
+          "sha256": "fd41f531eb925d599f5cb5bdd36842dc6933a13131ce5a2c9443048d52ad3108"
+        },
+        "mixed": {
+          "brownian_seed": 111097879,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9187015365384013,
+          "min_state": -2.3070040749748277,
+          "path": "triplet_011_mixed.npy",
+          "sha256": "4e960645ebda812fb8b0d1d91027194bbb8b08dfe0e5958c2046e0901867d085"
+        },
+        "plus": {
+          "brownian_seed": 909547431,
+          "initial_mean": 1.129470001367612,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.680342148464891,
+          "min_state": 0.3480249296232394,
+          "path": "triplet_011_plus.npy",
+          "sha256": "baaed41fbf54e579cf4c89d7aef223223ba62797937c05048ff84de96c737848"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.42578125,
+        "c_nominal": 0.4234874011699484,
+        "d": 1.0005768343033044,
+        "m0": 0.0,
+        "n_central": 436,
+        "n_particles": 1024,
+        "r_minus": -2.06916263637706,
+        "r_plus": 1.415839670856218,
+        "sample_seed": 1119164932,
+        "triplet_id": 12,
+        "width": 0.09667751643140773,
+        "window_half_width": 0.45,
+        "x_c": 0.4405434675759805
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2199274635,
+          "initial_mean": -1.0005768343033046,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.5247981921480945,
+          "min_state": -2.154579166446631,
+          "path": "triplet_012_minus.npy",
+          "sha256": "938cdcf438b665eeb7df31594bb6fe8f505c75019010397beffe31baa80c1091"
+        },
+        "mixed": {
+          "brownian_seed": 1063611958,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.878042556466309,
+          "min_state": -2.156393624734783,
+          "path": "triplet_012_mixed.npy",
+          "sha256": "8265b1a39dca541b405ab46eefc7de0a1fe4a34d226607444cb0cde4c8ace162"
+        },
+        "plus": {
+          "brownian_seed": 970084976,
+          "initial_mean": 1.0005768343033044,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.5001996589706388,
+          "min_state": 0.3542583204164077,
+          "path": "triplet_012_plus.npy",
+          "sha256": "8d84efbb359fae4c365e16963a7b10a103b6683c1ac61be18ac7efbdd634744a"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.41796875,
+        "c_nominal": 0.4153411063982938,
+        "d": 1.11990788201441,
+        "m0": 0.0,
+        "n_central": 428,
+        "n_particles": 1024,
+        "r_minus": -2.36189419790949,
+        "r_plus": 1.4863798664621735,
+        "sample_seed": 1968945525,
+        "triplet_id": 13,
+        "width": 0.09056355373546753,
+        "window_half_width": 0.4383963926104087,
+        "x_c": 0.6095870812413561
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1481783778,
+          "initial_mean": -1.11990788201441,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6885851914173117,
+          "min_state": -2.437970009297362,
+          "path": "triplet_013_minus.npy",
+          "sha256": "29d348e2cb0e33d20430af83276c69c5d7b85b15a4a76314f7ff1e3fd532ffc1"
+        },
+        "mixed": {
+          "brownian_seed": 3584504076,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8682511239437332,
+          "min_state": -2.437970009297362,
+          "path": "triplet_013_mixed.npy",
+          "sha256": "16c800ba169ca38749f1a1a46a3110232d732e67a17c0c5bdf6af8ff71e921eb"
+        },
+        "plus": {
+          "brownian_seed": 947821695,
+          "initial_mean": 1.11990788201441,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.556019994256008,
+          "min_state": 0.5083925461763218,
+          "path": "triplet_013_plus.npy",
+          "sha256": "3d5f19434605e474d86a3f6922264bb95ebfc889beded206e7ccd544294bb2bc"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.4375,
+        "c_nominal": 0.43847092459501535,
+        "d": 1.2374547048498448,
+        "m0": 0.0,
+        "n_central": 448,
+        "n_particles": 1024,
+        "r_minus": -2.6308579408221267,
+        "r_plus": 1.7689810097550993,
+        "sample_seed": 2525130624,
+        "triplet_id": 14,
+        "width": 0.08904353631739602,
+        "window_half_width": 0.45,
+        "x_c": 0.5540637414002317
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2617381336,
+          "initial_mean": -1.237454704849845,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6309318330147857,
+          "min_state": -2.7050299251792755,
+          "path": "triplet_014_minus.npy",
+          "sha256": "4bb21c0db6b14b8fe85352056aff0ae0c83c323c38287375b77aa32acc47477f"
+        },
+        "mixed": {
+          "brownian_seed": 1650953416,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.957758490340083,
+          "min_state": -2.7050299251792755,
+          "path": "triplet_014_mixed.npy",
+          "sha256": "172ae2e1aabd4f3cd0c966f7c765f6804b3e18021f55fe45ef5be06010e051a1"
+        },
+        "plus": {
+          "brownian_seed": 4110894470,
+          "initial_mean": 1.2374547048498448,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8437256382637401,
+          "min_state": 0.45218197558656675,
+          "path": "triplet_014_plus.npy",
+          "sha256": "bdaa8d524c9acb7be17a0f00aa2c8822a003d131197e2a277aa2aec7053d807e"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.37890625,
+        "c_nominal": 0.37763109154809116,
+        "d": 0.9261936895222178,
+        "m0": 0.0,
+        "n_central": 388,
+        "n_particles": 1024,
+        "r_minus": -1.806052521711656,
+        "r_plus": 1.1764076609007688,
+        "sample_seed": 721651264,
+        "triplet_id": 15,
+        "width": 0.14071517337623884,
+        "window_half_width": 0.33017926120056196,
+        "x_c": 0.5160491384996448
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2541533588,
+          "initial_mean": -0.9261936895222178,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6370325523362148,
+          "min_state": -1.931319117426774,
+          "path": "triplet_015_minus.npy",
+          "sha256": "d08ba8f17de83ab1a4cfb894178c3b1b5495c7a8042eaf7f7793870424165f73"
+        },
+        "mixed": {
+          "brownian_seed": 3036533036,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7693219199204202,
+          "min_state": -1.9764285337007024,
+          "path": "triplet_015_mixed.npy",
+          "sha256": "ad47d57fb66ba9299b38a35bb3d1a7f8ddb8d21e8b4435600f089b49d63c0a82"
+        },
+        "plus": {
+          "brownian_seed": 403438059,
+          "initial_mean": 0.9261936895222179,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.3014707505341019,
+          "min_state": 0.38997933340233965,
+          "path": "triplet_015_plus.npy",
+          "sha256": "bc165681f02ceff979d075d3ba79b898e0b484d2cc2bcfd1dbd607d41870209b"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.3828125,
+        "c_nominal": 0.38175686391660396,
+        "d": 1.1454792860748424,
+        "m0": 0.0,
+        "n_central": 392,
+        "n_particles": 1024,
+        "r_minus": -2.1696864153813227,
+        "r_plus": 1.5422464610131035,
+        "sample_seed": 3218195498,
+        "triplet_id": 16,
+        "width": 0.11783822109848702,
+        "window_half_width": 0.45,
+        "x_c": 0.505793432602952
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 479578772,
+          "initial_mean": -1.1454792860748426,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6065740249130805,
+          "min_state": -2.2673219291815316,
+          "path": "triplet_016_minus.npy",
+          "sha256": "423e5435052c46c17d7ff56e121ad7c3c0deb52c47a21bbc7758afc6c2dfd45b"
+        },
+        "mixed": {
+          "brownian_seed": 833681547,
+          "initial_mean": -2.220446049250313e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9169728559026018,
+          "min_state": -2.2673219291815316,
+          "path": "triplet_016_mixed.npy",
+          "sha256": "14e86e1bef7d0c942148e06f51967ff813efc8bf43a86012bb32a171c09b1ac5"
+        },
+        "plus": {
+          "brownian_seed": 1077271023,
+          "initial_mean": 1.1454792860748424,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.6341114554773148,
+          "min_state": 0.4032310185061738,
+          "path": "triplet_016_plus.npy",
+          "sha256": "2881e79695da13ae4c6d8cb9ee69a9b3fb9156fdaf42c599705fd021975b023f"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.41015625,
+        "c_nominal": 0.410228560981249,
+        "d": 1.287129407758618,
+        "m0": 0.0,
+        "n_central": 420,
+        "n_particles": 1024,
+        "r_minus": -2.627813099334373,
+        "r_plus": 1.736493236906769,
+        "sample_seed": 2910887651,
+        "triplet_id": 17,
+        "width": 0.08496082572951533,
+        "window_half_width": 0.45,
+        "x_c": 0.64090142488842
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2451857256,
+          "initial_mean": -1.287129407758618,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.71434556841789,
+          "min_state": -2.701776717703378,
+          "path": "triplet_017_minus.npy",
+          "sha256": "a9f08f8d73c0e97d1d746859109a829e7906e16b214d3b4e7972a4e2ac1fecc1"
+        },
+        "mixed": {
+          "brownian_seed": 3471589324,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9561506951538608,
+          "min_state": -2.701776717703378,
+          "path": "triplet_017_mixed.npy",
+          "sha256": "941d374708ef49e0df072cf33dce037e728012acc7719f118c6ee4d85393dc74"
+        },
+        "plus": {
+          "brownian_seed": 4048220241,
+          "initial_mean": 1.287129407758618,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8081116488570066,
+          "min_state": 0.5076053867097507,
+          "path": "triplet_017_plus.npy",
+          "sha256": "54b06b7a1ccd4ca3f03fce17d68aad09f26406e8f5d01371e9ca543c3932c5da"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.41796875,
+        "c_nominal": 0.41565470723526576,
+        "d": 1.0345877045963154,
+        "m0": 0.0,
+        "n_central": 428,
+        "n_particles": 1024,
+        "r_minus": -2.1219006376919927,
+        "r_plus": 1.4331926828000445,
+        "sample_seed": 1286873402,
+        "triplet_id": 18,
+        "width": 0.12048596934783071,
+        "window_half_width": 0.45,
+        "x_c": 0.4795209592471974
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1752025424,
+          "initial_mean": -1.0345877045963154,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.5823914175760999,
+          "min_state": -2.22870030824644,
+          "path": "triplet_018_minus.npy",
+          "sha256": "0b9621824db4834c5ad97a677e20a52b8254d7b24b72132e8b4fa664594bd3db"
+        },
+        "mixed": {
+          "brownian_seed": 1935062965,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8642337088658665,
+          "min_state": -2.22870030824644,
+          "path": "triplet_018_mixed.npy",
+          "sha256": "539868a2db837e66c2750f3500f41c4fe8cb92089eb877f476076aa74cbecbcf"
+        },
+        "plus": {
+          "brownian_seed": 3329651653,
+          "initial_mean": 1.0345877045963154,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.537864284281645,
+          "min_state": 0.37434866323257415,
+          "path": "triplet_018_plus.npy",
+          "sha256": "ec00d054aebc78964ca1c07d8c0747a661d4450f70244640750d4d61e690e5d9"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.421875,
+        "c_nominal": 0.4194522334343472,
+        "d": 1.044766371540345,
+        "m0": 0.0,
+        "n_central": 432,
+        "n_particles": 1024,
+        "r_minus": -2.256326100899743,
+        "r_plus": 1.35800080605064,
+        "sample_seed": 676207446,
+        "triplet_id": 19,
+        "width": 0.10746017940309564,
+        "window_half_width": 0.3712408112714608,
+        "x_c": 0.6155191835077185
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3671901739,
+          "initial_mean": -1.0447663715403452,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.7057139721585163,
+          "min_state": -2.349031435013545,
+          "path": "triplet_019_minus.npy",
+          "sha256": "7e76c0b436703e746f4da3160f4d891e8e9ac1460ac263ad1b2db98fd908faa9"
+        },
+        "mixed": {
+          "brownian_seed": 225040744,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8149089661514544,
+          "min_state": -2.349031435013545,
+          "path": "triplet_019_mixed.npy",
+          "sha256": "5d5eb8eece69a1e48e9ce6eb49effdc994805ff8557792806692b2c9daed1adc"
+        },
+        "plus": {
+          "brownian_seed": 1721068158,
+          "initial_mean": 1.044766371540345,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4486974360449287,
+          "min_state": 0.5132009219894499,
+          "path": "triplet_019_plus.npy",
+          "sha256": "3b428e56c84e87daf703bd3d973e10310d24ccbd94f2e7d91ca3a545837405cf"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.41015625,
+        "c_nominal": 0.4079097378563571,
+        "d": 1.298215214158804,
+        "m0": 0.0,
+        "n_central": 420,
+        "n_particles": 1024,
+        "r_minus": -2.571315327878488,
+        "r_plus": 1.8305799678122905,
+        "sample_seed": 3705657299,
+        "triplet_id": 20,
+        "width": 0.10931483265614972,
+        "window_half_width": 0.45,
+        "x_c": 0.5326239969999805
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3008808259,
+          "initial_mean": -1.2982152141588037,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6311925130619181,
+          "min_state": -2.657933341685822,
+          "path": "triplet_020_minus.npy",
+          "sha256": "d464c8f023810c51799c8691cdf0652347df7d3ff609f648bb6b946d707625e6"
+        },
+        "mixed": {
+          "brownian_seed": 846726440,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9926199540746938,
+          "min_state": -2.657933341685822,
+          "path": "triplet_020_mixed.npy",
+          "sha256": "2fe4360a5c6d620ba1b3517edf2901d223034f43618dc8f202b74747ca1a9473"
+        },
+        "plus": {
+          "brownian_seed": 825840701,
+          "initial_mean": 1.298215214158804,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9248553919103424,
+          "min_state": 0.40328744877948297,
+          "path": "triplet_020_plus.npy",
+          "sha256": "0725e4b1b10035c797ad947e3437653f0047fe9378b7c2785a38ccbb0ce770d4"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.421875,
+        "c_nominal": 0.41898100998107923,
+        "d": 1.2412182434357657,
+        "m0": 0.0,
+        "n_central": 432,
+        "n_particles": 1024,
+        "r_minus": -2.5187337817326756,
+        "r_plus": 1.7752104117748382,
+        "sample_seed": 1386674323,
+        "triplet_id": 21,
+        "width": 0.14892720518490987,
+        "window_half_width": 0.45,
+        "x_c": 0.5094511979340737
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3963034108,
+          "initial_mean": -1.2412182434357657,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6397189512826482,
+          "min_state": -2.6454756150942753,
+          "path": "triplet_021_minus.npy",
+          "sha256": "b9faa81915bc97ac2b39662de9ca727c01a86f3f245c3eecfffeadcebc5df10b"
+        },
+        "mixed": {
+          "brownian_seed": 2441878469,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9782299837755684,
+          "min_state": -2.6454756150942753,
+          "path": "triplet_021_mixed.npy",
+          "sha256": "ab6c5bb225f865b9fa2e268ba86e7a3f57fcb9cc0c3cced01896616e51b2b85b"
+        },
+        "plus": {
+          "brownian_seed": 4209333813,
+          "initial_mean": 1.2412182434357657,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9097299847942646,
+          "min_state": 0.36053999506812257,
+          "path": "triplet_021_plus.npy",
+          "sha256": "1f3909104922acbe687e241cb3731877980728cbe8b46ebbfa3143063e0b1eb4"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.3828125,
+        "c_nominal": 0.3802094481443948,
+        "d": 1.2785582729880542,
+        "m0": 0.0,
+        "n_central": 392,
+        "n_particles": 1024,
+        "r_minus": -2.406843180480031,
+        "r_plus": 1.7363329952787268,
+        "sample_seed": 3065533820,
+        "triplet_id": 22,
+        "width": 0.10334922674676844,
+        "window_half_width": 0.45,
+        "x_c": 0.5405133125602353
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 162017743,
+          "initial_mean": -1.2785582729880542,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.636662676292262,
+          "min_state": -2.490820652201374,
+          "path": "triplet_022_minus.npy",
+          "sha256": "a4139ce1f2fb416af9df0bf6b6d9d694722bb90ddd24d63d1faa6c8151ea76ef"
+        },
+        "mixed": {
+          "brownian_seed": 4127473070,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.964714808770926,
+          "min_state": -2.490820652201374,
+          "path": "triplet_022_mixed.npy",
+          "sha256": "905fbcf01f26b0d53ea261740465b3428af81ad38a1722ae9c3c55b306388710"
+        },
+        "plus": {
+          "brownian_seed": 1360283559,
+          "initial_mean": 1.2785582729880542,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8240052987103759,
+          "min_state": 0.410964351675405,
+          "path": "triplet_022_plus.npy",
+          "sha256": "39868224f9c6eab42ce924f3836a6824654ba8b5e936d40da86a1829e16993ed"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.4140625,
+        "c_nominal": 0.4123516217959448,
+        "d": 1.1008595979668503,
+        "m0": 0.0,
+        "n_central": 424,
+        "n_particles": 1024,
+        "r_minus": -2.4118975087020975,
+        "r_plus": 1.345703252358085,
+        "sample_seed": 2341005661,
+        "triplet_id": 23,
+        "width": 0.10935018467453583,
+        "window_half_width": 0.2956602619063965,
+        "x_c": 0.754382728545292
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3491660871,
+          "initial_mean": -1.1008595979668505,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8508309943870628,
+          "min_state": -2.499264985177545,
+          "path": "triplet_023_minus.npy",
+          "sha256": "195d0918a7d26b728683b204529c828256b3ed7d196370be98feb05173cb74c6"
+        },
+        "mixed": {
+          "brownian_seed": 2915408686,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8028092877667454,
+          "min_state": -2.499264985177545,
+          "path": "triplet_023_mixed.npy",
+          "sha256": "11a40f40c2d804fd162648764a1cad85a84244a3d6d92e5110ba0fa0b5065057"
+        },
+        "plus": {
+          "brownian_seed": 476554421,
+          "initial_mean": 1.1008595979668505,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.438040563706628,
+          "min_state": 0.6145568278391461,
+          "path": "triplet_023_plus.npy",
+          "sha256": "c6e02945d90364249f497525e6dd87b6536c8fc9e195b95345d76c0835ea4d4d"
+        }
+      },
+      "role": "train"
+    },
+    {
+      "family": {
+        "c_eff": 0.3984375,
+        "c_nominal": 0.39698404119232206,
+        "d": 1.2254953182537398,
+        "m0": 0.0,
+        "n_central": 408,
+        "n_particles": 1024,
+        "r_minus": -2.4864014057747363,
+        "r_plus": 1.5879726393286062,
+        "sample_seed": 3013091408,
+        "triplet_id": 24,
+        "width": 0.11931068869598042,
+        "window_half_width": 0.45,
+        "x_c": 0.678225637415216
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 1369124735,
+          "initial_mean": -1.2254953182537398,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.7788884159119681,
+          "min_state": -2.589976584233798,
+          "path": "triplet_024_minus.npy",
+          "sha256": "0e5d5a53cc42a1049364e7c961cac2b597525a3cf0acad393d5127550fa1d85b"
+        },
+        "mixed": {
+          "brownian_seed": 3350271144,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.9090935184495317,
+          "min_state": -2.589976584233798,
+          "path": "triplet_024_mixed.npy",
+          "sha256": "3e1f46d036bf93db7c1b1459309b8a3d1748ea8c8a5dc6c6511cb9cfba6d3d0e"
+        },
+        "plus": {
+          "brownian_seed": 63791937,
+          "initial_mean": 1.2254953182537398,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.6813864799004952,
+          "min_state": 0.5345587480453206,
+          "path": "triplet_024_plus.npy",
+          "sha256": "84149f76b9f180d006d80bd44d25a9a75db976c962edaadab476205a011bc67f"
+        }
+      },
+      "role": "validation"
+    },
+    {
+      "family": {
+        "c_eff": 0.41796875,
+        "c_nominal": 0.41717177739485023,
+        "d": 1.2736152527889228,
+        "m0": 0.0,
+        "n_central": 428,
+        "n_particles": 1024,
+        "r_minus": -2.7334067443486694,
+        "r_plus": 1.6430429833555487,
+        "sample_seed": 4066003042,
+        "triplet_id": 25,
+        "width": 0.13228360640853104,
+        "window_half_width": 0.4419322384348422,
+        "x_c": 0.7591785064858643
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2518409828,
+          "initial_mean": -1.2736152527889228,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8703879522384987,
+          "min_state": -2.8415126197615908,
+          "path": "triplet_025_minus.npy",
+          "sha256": "d3c525b4369a7db04f0cf019c35e27515be0e2331495e2495d07161ea674218f"
+        },
+        "mixed": {
+          "brownian_seed": 2030629454,
+          "initial_mean": -5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8928602969929227,
+          "min_state": -2.8415126197615908,
+          "path": "triplet_025_mixed.npy",
+          "sha256": "732bc5f812a0897bd026f33091ef49f6993ea4c33cf94624706ecbe49cd28bc5"
+        },
+        "plus": {
+          "brownian_seed": 1638386486,
+          "initial_mean": 1.2736152527889226,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7574905589550196,
+          "min_state": 0.5809416376076728,
+          "path": "triplet_025_plus.npy",
+          "sha256": "063e9f5a1f7e2e9f5edfa913929fd81eb8f41819415dbdd6458bebfaa637e128"
+        }
+      },
+      "role": "validation"
+    },
+    {
+      "family": {
+        "c_eff": 0.41015625,
+        "c_nominal": 0.41050414077271774,
+        "d": 1.033763812119612,
+        "m0": 0.0,
+        "n_central": 420,
+        "n_particles": 1024,
+        "r_minus": -2.234019577173845,
+        "r_plus": 1.271192818887356,
+        "sample_seed": 2408280405,
+        "triplet_id": 26,
+        "width": 0.1461064048266304,
+        "window_half_width": 0.2894372653930593,
+        "x_c": 0.6923182881012374
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 2316671572,
+          "initial_mean": -1.033763812119612,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8102290703944963,
+          "min_state": -2.3562591424650248,
+          "path": "triplet_026_minus.npy",
+          "sha256": "f798636e31d2ec3763472c5b2c911a187a47a1bb147b4f060db3bf48225c0c55"
+        },
+        "mixed": {
+          "brownian_seed": 3251203532,
+          "initial_mean": 1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8079013483442619,
+          "min_state": -2.3562591424650248,
+          "path": "triplet_026_mixed.npy",
+          "sha256": "cb7d934f81f7e48a5ae4479f45f59dc6c24e05fa3c049047244178aa75e3cf7c"
+        },
+        "plus": {
+          "brownian_seed": 678203883,
+          "initial_mean": 1.033763812119612,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.3969419753751637,
+          "min_state": 0.5587103780616053,
+          "path": "triplet_026_plus.npy",
+          "sha256": "4ffb837b161a4140e6b0bd2077ad97c3161173612215f46c7d2bdba5af486cf9"
+        }
+      },
+      "role": "validation"
+    },
+    {
+      "family": {
+        "c_eff": 0.43359375,
+        "c_nominal": 0.43445329498457386,
+        "d": 1.1294047789639918,
+        "m0": 0.0,
+        "n_central": 444,
+        "n_particles": 1024,
+        "r_minus": -2.601663773291872,
+        "r_plus": 1.3863034462223611,
+        "sample_seed": 980790254,
+        "triplet_id": 27,
+        "width": 0.11676364796544864,
+        "window_half_width": 0.2962435081898313,
+        "x_c": 0.7938164298426985
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 30795540,
+          "initial_mean": -1.1294047789639918,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.8837881545140783,
+          "min_state": -2.697601784260483,
+          "path": "triplet_027_minus.npy",
+          "sha256": "d1087ee11a524a3e57ca1fdc77b7ad1149df52822a84784a59798673989e7537"
+        },
+        "mixed": {
+          "brownian_seed": 2982325422,
+          "initial_mean": 5.551115123125783e-17,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7792047281799133,
+          "min_state": -2.697601784260483,
+          "path": "triplet_027_mixed.npy",
+          "sha256": "81bdf5cedf005cc0c5644fcf06dcd3587c2123afd13cc1a4c7b4182d723022db"
+        },
+        "plus": {
+          "brownian_seed": 874162489,
+          "initial_mean": 1.1294047789639918,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4823340324969936,
+          "min_state": 0.6433921851164323,
+          "path": "triplet_027_plus.npy",
+          "sha256": "9bee21e5db92bda02d88e6beab9e9958fd93bc1d346ae7942f40df264f6760aa"
+        }
+      },
+      "role": "validation"
+    },
+    {
+      "family": {
+        "c_eff": 0.4140625,
+        "c_nominal": 0.412725118108835,
+        "d": 1.201054686695977,
+        "m0": 0.0,
+        "n_central": 424,
+        "n_particles": 1024,
+        "r_minus": -2.5146098780283612,
+        "r_plus": 1.5849901192272406,
+        "sample_seed": 2558240984,
+        "triplet_id": 28,
+        "width": 0.14582380929266653,
+        "window_half_width": 0.45,
+        "x_c": 0.6577498293404153
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 603951160,
+          "initial_mean": -1.201054686695977,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.7819005181034682,
+          "min_state": -2.633163472493297,
+          "path": "triplet_028_minus.npy",
+          "sha256": "3ca8327e6fe1f40330b1ce658179f1764fdb0cf37392fa9f48eb06cbdfdf535a"
+        },
+        "mixed": {
+          "brownian_seed": 733554921,
+          "initial_mean": 0.0,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8901201715615275,
+          "min_state": -2.633163472493297,
+          "path": "triplet_028_mixed.npy",
+          "sha256": "e465637c15c151e1c4f9c012fd528525da6a0c3e8dfd6958ef86279dfaeabf2e"
+        },
+        "plus": {
+          "brownian_seed": 4148926662,
+          "initial_mean": 1.201054686695977,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.7027888707806653,
+          "min_state": 0.4941046493347226,
+          "path": "triplet_028_plus.npy",
+          "sha256": "ffe9d0ef67ad48bfdf5b1e6ae965ab29b9eca55e653a0e0a468a7e7f57fdfe09"
+        }
+      },
+      "role": "validation"
+    },
+    {
+      "family": {
+        "c_eff": 0.36328125,
+        "c_nominal": 0.3633278633073157,
+        "d": 1.0401451214190582,
+        "m0": 0.0,
+        "n_central": 372,
+        "n_particles": 1024,
+        "r_minus": -1.9541986503244,
+        "r_plus": 1.3130056574458935,
+        "sample_seed": 131405006,
+        "triplet_id": 29,
+        "width": 0.12987069452896194,
+        "window_half_width": 0.3755499850691926,
+        "x_c": 0.5619056873075082
+      },
+      "measures": {
+        "minus": {
+          "brownian_seed": 3860065565,
+          "initial_mean": -1.0401451214190585,
+          "max_boundary_fraction": 0.0,
+          "max_state": 0.6735051016559269,
+          "min_state": -2.061213606935808,
+          "path": "triplet_029_minus.npy",
+          "sha256": "df7c9c3a670217d15479a13f42d0971f4ef1b541b315126f3d7e6e0f7e288072"
+        },
+        "mixed": {
+          "brownian_seed": 2764582606,
+          "initial_mean": -1.1102230246251565e-16,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.8663678095833285,
+          "min_state": -2.069008845763577,
+          "path": "triplet_029_mixed.npy",
+          "sha256": "f958fc8d304bedced91cbde9afa69e61cd46fe5f606e476e2fa140cf4f064c68"
+        },
+        "plus": {
+          "brownian_seed": 4236779881,
+          "initial_mean": 1.0401451214190582,
+          "max_boundary_fraction": 0.0,
+          "max_state": 1.4244087270183419,
+          "min_state": 0.4493591342081249,
+          "path": "triplet_029_plus.npy",
+          "sha256": "37530f9d388cc0a46f5a413f1291a433bcd9810c5c4a7678445589f65c75c09d"
+        }
+      },
+      "role": "validation"
+    }
+  ]
+}

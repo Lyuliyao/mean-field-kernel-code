@@ -1,0 +1,28 @@
+{
+  "bandwidth": 0.05,
+  "bandwidth_candidates": [
+    0.05,
+    0.08,
+    0.12
+  ],
+  "domain": [
+    -4.0,
+    4.0
+  ],
+  "grid_cells": 512,
+  "selection_rule": "held_out_particle_w1_on_training_triplets_only",
+  "selection_table": [
+    {
+      "bandwidth": 0.05,
+      "mean_w1": 0.0666163577529061
+    },
+    {
+      "bandwidth": 0.08,
+      "mean_w1": 0.087840930792374
+    },
+    {
+      "bandwidth": 0.12,
+      "mean_w1": 0.10611164868101117
+    }
+  ]
+}
