@@ -2,7 +2,7 @@
 
 Code and curated data accompanying **MVNN: A Measure-Valued Neural Network for Learning McKean-Vlasov Dynamics from Particle Data**, by Liyao Lyu, Xinyue Yu, and Hayden Schaeffer.
 
-[中文说明](README.zh-CN.md) · [Paper](paper/mean-field-kernel.pdf) · [Figure-to-code map](docs/PAPER_MAP.md) · [Data](docs/DATA.md) · [Reproduction and limitations](docs/REPRODUCTION.md)
+[Figure-to-code map](docs/PAPER_MAP.md) · [Data](docs/DATA.md) · [Reproduction and limitations](docs/REPRODUCTION.md)
 
 This private repository collects the implementations and results located in the authors' supplied amd20 and Anvil directories. It includes the first-order MVNN experiments, the training-size study, the nonlinear global-mean benchmark, recovered second-order plotting scripts, trained parameters, measured results, and selected reference/prediction data. See the coverage table below before treating it as a complete end-to-end reproduction of every experiment.
 
