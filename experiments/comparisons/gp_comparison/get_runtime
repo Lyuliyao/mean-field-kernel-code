@@ -1,0 +1,16 @@
+total=0
+
+for i in {1..10}
+do
+    output=$(mpirun -n 16 python simulation.py 1 1000)
+    runtime=$(echo "$output" | grep "Runtime" | awk '{print $2}')
+
+    echo "Run $i: $runtime s"
+
+    total=$(echo "$total + $runtime" | bc)
+done
+
+avg=$(echo "scale=6; $total / 10" | bc)
+
+echo "Average runtime: $avg s"
+~                               
